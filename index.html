@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -12,6 +11,11 @@
   <h1>Swing Notes</h1>
   <p>Detectamos automaticamente setups técnicos de alta probabilidade para investidores que buscam aumentar a precisão de suas operações swing trade.</p>
 </header>
+
+<section>
+  <h2>Resumo da Conta</h2>
+  <div id="resumo-container">Carregando informações da conta...</div>
+</section>
 
 <section>
   <h2>Sobre o Swing Notes</h2>
@@ -32,6 +36,7 @@
   © 2025 Swing Notes - Todos os direitos reservados.
 </footer>
 
+<!-- Scripts para carregar trades -->
 <script>
   fetch('trades.json')
     .then(response => response.json())
@@ -62,6 +67,27 @@
       console.error('Erro ao carregar setups:', error);
       document.getElementById('abertos-container').innerText = 'Erro ao carregar setups.';
       document.getElementById('fechados-container').innerText = 'Erro ao carregar setups.';
+    });
+</script>
+
+<!-- Script para carregar resumo da conta -->
+<script>
+  fetch('resumo.json')
+    .then(response => response.json())
+    .then(data => {
+      const resumo = document.getElementById('resumo-container');
+      resumo.innerHTML = `
+        <p><strong>Total de Trades:</strong> ${data["Total Trades"]}</p>
+        <p><strong>Capital Investido:</strong> US$ ${data["Capital Investido (US$)"]}</p>
+        <p><strong>Saldo Atual:</strong> US$ ${data["Saldo Atual (US$)"]}</p>
+        <p><strong>PnL Total:</strong> US$ ${data["PnL Total (US$)"]} (${data["PnL Total (%)"]}%)</p>
+        <p><strong>Data do Primeiro Trade:</strong> ${data["Data Primeiro Trade"]}</p>
+        <p><strong>Dias Úteis:</strong> ${data["Dias Úteis"]}</p>
+      `;
+    })
+    .catch(error => {
+      console.error('Erro ao carregar resumo:', error);
+      document.getElementById('resumo-container').innerText = 'Erro ao carregar informações da conta.';
     });
 </script>
 
