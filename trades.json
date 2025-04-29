@@ -1,13 +1,5 @@
 [
     {
-        "ticker": "ETHA",
-        "entrada_saida": "Entrada: USD 13.82 | Saída: USD 14.00",
-        "pnl": "PnL: USD 0.18 (+1.30%)",
-        "retorno_dia": "Retorno/dia: +1.30% (1 dias úteis)",
-        "status": "fechado",
-        "cor": "verde"
-    },
-    {
         "ticker": "SAND",
         "entrada_saida": "Entrada: USD 8.40 | Saída: USD 8.43",
         "pnl": "PnL: USD 0.38 (+0.38%)",
