@@ -1,9 +1,43 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <title>Swing Notes - Análises Técnicas</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .resumo-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 20px 0;
+      justify-content: center;
+    }
+
+    .resumo-card {
+      background-color: #101e33;
+      color: #ffffff;
+      border: 1px solid #444;
+      border-radius: 10px;
+      padding: 15px 20px;
+      font-size: 0.9rem;
+      box-shadow: 0 0 5px rgba(0,0,0,0.3);
+      min-width: 250px;
+      max-width: 300px;
+      flex: 1;
+    }
+
+    .resumo-card h4 {
+      margin: 0 0 10px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #f0c14b;
+    }
+
+    .resumo-card p {
+      margin: 4px 0;
+    }
+  </style>
 </head>
 <body>
 
@@ -13,8 +47,9 @@
 </header>
 
 <section>
-  <h2>Resumo da Conta</h2>
-  <div id="resumo-container">Carregando informações da conta...</div>
+  <div class="resumo-row" id="resumo-operacional-container">
+    Carregando performance...
+  </div>
 </section>
 
 <section>
@@ -36,7 +71,7 @@
   © 2025 Swing Notes - Todos os direitos reservados.
 </footer>
 
-<!-- Scripts para carregar trades -->
+<!-- Script para carregar trades -->
 <script>
   fetch('trades.json')
     .then(response => response.json())
@@ -70,24 +105,34 @@
     });
 </script>
 
-<!-- Script para carregar resumo da conta -->
+<!-- Script para carregar resumo_operacional -->
 <script>
-  fetch('resumo.json')
+  fetch('resumo_operacional.json')
     .then(response => response.json())
     .then(data => {
-      const resumo = document.getElementById('resumo-container');
-      resumo.innerHTML = `
-        <p><strong>Total de Trades:</strong> ${data["Total Trades"]}</p>
-        <p><strong>Capital Investido:</strong> US$ ${data["Capital Investido (US$)"]}</p>
-        <p><strong>Saldo Atual:</strong> US$ ${data["Saldo Atual (US$)"]}</p>
-        <p><strong>PnL Total:</strong> US$ ${data["PnL Total (US$)"]} (${data["PnL Total (%)"]}%)</p>
-        <p><strong>Data do Primeiro Trade:</strong> ${data["Data Primeiro Trade"]}</p>
-        <p><strong>Dias Úteis:</strong> ${data["Dias Úteis"]}</p>
-      `;
+      const container = document.getElementById('resumo-operacional-container');
+      container.innerHTML = '';
+
+      const blocos = {
+        "Fechados": data.Fechados,
+        "Abertos/Parciais": data.Abertos_Parciais,
+        "Posição Geral": data.Geral
+      };
+
+      for (const [titulo, valores] of Object.entries(blocos)) {
+        const card = document.createElement('div');
+        card.className = 'resumo-card';
+        card.innerHTML = `<h4>${titulo}</h4>`;
+        for (const [chave, valor] of Object.entries(valores)) {
+          const cor = valor > 0 ? 'style="color:#50c878;"' : (valor < 0 ? 'style="color:#ff6f61;"' : '');
+          card.innerHTML += `<p><span ${cor}>${chave}: ${valor > 0 ? '+' : ''}${valor}</span></p>`;
+        }
+        container.appendChild(card);
+      }
     })
     .catch(error => {
-      console.error('Erro ao carregar resumo:', error);
-      document.getElementById('resumo-container').innerText = 'Erro ao carregar informações da conta.';
+      console.error('Erro ao carregar resumo operacional:', error);
+      document.getElementById('resumo-operacional-container').innerText = 'Erro ao carregar performance.';
     });
 </script>
 
