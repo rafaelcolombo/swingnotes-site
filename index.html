@@ -20,37 +20,7 @@
 
 <section>
   <h2>Trades Abertos</h2>
-  <div id="abertos-container">
-    <div class="setup-item azul">
-      <strong>Ticker: LOREM</strong><br>
-      Entrada: USD 10.00<br>
-      Quantidade: 100<br>
-      Valor Total: USD 1000.00<br>
-      Status: ABERTO<br>
-      Trade ID: 0000-AAAA<br>
-      Data: 2025-05-01
-    </div>
-
-    <div class="setup-item verde_claro">
-      <strong>Ticker: IPSUM</strong><br>
-      Entrada: USD 20.00<br>
-      Quantidade: 50<br>
-      Valor Total: USD 1000.00<br>
-      Status: PARCIAL COM LUCRO<br>
-      Trade ID: 0001-BBBB<br>
-      Data: 2025-05-01
-    </div>
-
-    <div class="setup-item vermelho_claro">
-      <strong>Ticker: DOLOR</strong><br>
-      Entrada: USD 30.00<br>
-      Quantidade: 30<br>
-      Valor Total: USD 900.00<br>
-      Status: PARCIAL COM PREJUÍZO<br>
-      Trade ID: 0002-CCCC<br>
-      Data: 2025-05-01
-    </div>
-  </div>
+  <div id="abertos-container">Carregando setups...</div>
 </section>
 
 <section>
@@ -66,8 +36,11 @@
   fetch('trades.json')
     .then(response => response.json())
     .then(data => {
-      const container = document.getElementById('fechados-container');
-      container.innerHTML = '';
+      const abertos = document.getElementById('abertos-container');
+      const fechados = document.getElementById('fechados-container');
+      abertos.innerHTML = '';
+      fechados.innerHTML = '';
+
       data.forEach(trade => {
         const div = document.createElement('div');
         div.className = 'setup-item ' + trade.cor;
@@ -77,11 +50,17 @@
           ${trade.pnl}<br>
           ${trade.retorno_dia}
         `;
-        container.appendChild(div);
+
+        if (trade.status === 'fechado') {
+          fechados.appendChild(div);
+        } else {
+          abertos.appendChild(div);
+        }
       });
     })
     .catch(error => {
       console.error('Erro ao carregar setups:', error);
+      document.getElementById('abertos-container').innerText = 'Erro ao carregar setups.';
       document.getElementById('fechados-container').innerText = 'Erro ao carregar setups.';
     });
 </script>
