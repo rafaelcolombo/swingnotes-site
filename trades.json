@@ -1,52 +1,32 @@
 [
     {
-        "ticker": "SAND",
-        "preco_entrada": "8.40",
-        "quantidade": "N/A",
-        "valor_total": "N/A",
-        "status": "fechado",
-        "trade_id": "20250415-f0d3d318d346",
-        "data": "2025-04-15 00:00:00",
-        "cor": "verde"
-    },
-    {
-        "ticker": "YALA",
-        "preco_entrada": "6.46",
-        "quantidade": "N/A",
-        "valor_total": "N/A",
-        "status": "fechado",
-        "trade_id": "20250414-b68b00a1aab6",
-        "data": "2025-04-14 00:00:00",
-        "cor": "verde"
-    },
-    {
-        "ticker": "AU",
-        "preco_entrada": "42.72",
-        "quantidade": "N/A",
-        "valor_total": "N/A",
-        "status": "fechado",
-        "trade_id": "20250411-551d0746d586",
-        "data": "2025-04-11 00:00:00",
-        "cor": "vermelho"
+        "ticker": "AGL",
+        "entrada_saida": "Entrada: USD 5.59 | Saída: USD 4.50",
+        "pnl": "PnL: USD -19.47 (-19.47%)",
+        "retorno_dia": "Retorno/dia: -3.05% (7 dias úteis)"
     },
     {
         "ticker": "HMY",
-        "preco_entrada": "16.21",
-        "quantidade": "N/A",
-        "valor_total": "N/A",
-        "status": "fechado",
-        "trade_id": "20250410-866b17fe0df5",
-        "data": "2025-04-10 00:00:00",
-        "cor": "verde"
+        "entrada_saida": "Entrada: USD 16.21 | Saída: USD 16.59",
+        "pnl": "PnL: USD 2.38 (+2.38%)",
+        "retorno_dia": "Retorno/dia: +0.26% (9 dias úteis)"
     },
     {
-        "ticker": "AGL",
-        "preco_entrada": "5.59",
-        "quantidade": "N/A",
-        "valor_total": "N/A",
-        "status": "fechado",
-        "trade_id": "20250408-d5b39320bb3b",
-        "data": "2025-04-08 00:00:00",
-        "cor": "vermelho"
+        "ticker": "AU",
+        "entrada_saida": "Entrada: USD 42.72 | Saída: USD 40.36",
+        "pnl": "PnL: USD -5.52 (-5.52%)",
+        "retorno_dia": "Retorno/dia: -0.63% (9 dias úteis)"
+    },
+    {
+        "ticker": "YALA",
+        "entrada_saida": "Entrada: USD 6.46 | Saída: USD 7.36",
+        "pnl": "PnL: USD 13.90 (+13.90%)",
+        "retorno_dia": "Retorno/dia: +1.19% (11 dias úteis)"
+    },
+    {
+        "ticker": "SAND",
+        "entrada_saida": "Entrada: USD 8.40 | Saída: USD 8.43",
+        "pnl": "PnL: USD 0.38 (+0.38%)",
+        "retorno_dia": "Retorno/dia: +0.05% (8 dias úteis)"
     }
 ]
