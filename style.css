@@ -28,7 +28,7 @@ header p {
 section {
   padding: 40px 20px;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 30px auto;
   background-color: rgba(20, 33, 61, 0.85);
   border-radius: 10px;
 }
@@ -59,6 +59,16 @@ section {
 .azul {
   background-color: #154c79;
   border-left: 8px solid #1f6fb2;
+}
+
+.verde_claro {
+  background-color: #2d7d46;
+  border-left: 8px solid #50c878;
+}
+
+.vermelho_claro {
+  background-color: #924141;
+  border-left: 8px solid #d96c6c;
 }
 
 footer {
