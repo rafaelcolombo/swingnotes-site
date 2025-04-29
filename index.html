@@ -4,25 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Swing Notes - Análise Técnica</title>
+  <title>Swing Notes - Trades Fechados</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
 
 <header>
   <h1>Swing Notes</h1>
-  <p>Setups Técnicos Gerados por Análise Avançada</p>
-  <a href="https://t.me/swingnotes" target="_blank" class="telegram-button">📲 Acompanhe no Telegram</a>
+  <p>Trades Fechados com Detalhamento Técnico</p>
 </header>
 
 <section>
-  <h2>Sobre o Sistema</h2>
-  <p>O Swing Notes automatiza a identificação de setups técnicos de alta probabilidade no mercado de ações. Combinando indicadores de Momentum, Médias Móveis, Suport e Resistência, Tendência, Volatilidade e Volume, oferecemos uma visão técnica precisa para auxiliar suas decisões de investimento.</p>
-</section>
-
-<section class="setups">
-  <h2>Últimos Setups Detectados</h2>
+  <h2>Resumo Técnico</h2>
   <div id="setups-container">Carregando setups...</div>
 </section>
 
@@ -31,23 +24,19 @@
 </footer>
 
 <script>
-  fetch('trades.json')
+  fetch('setups_fechados.json')
     .then(response => response.json())
     .then(data => {
       const container = document.getElementById('setups-container');
       container.innerHTML = '';
-
       data.forEach(trade => {
         const div = document.createElement('div');
-        div.className = 'setup-item ' + trade.cor;
+        div.className = 'setup-item';
         div.innerHTML = `
-          <strong>Ativo:</strong> ${trade.ticker}<br>
-          <strong>Preço de Entrada:</strong> US$ ${trade.preco_entrada}<br>
-          <strong>Quantidade:</strong> ${trade.quantidade}<br>
-          <strong>Valor Total:</strong> US$ ${trade.valor_total}<br>
-          <strong>Status:</strong> ${trade.status.toUpperCase()}<br>
-          <strong>Trade ID:</strong> ${trade.trade_id}<br>
-          <strong>Data:</strong> ${trade.data}
+          <strong>${trade.ticker}</strong><br>
+          ${trade.entrada_saida}<br>
+          ${trade.pnl}<br>
+          ${trade.retorno_dia}
         `;
         container.appendChild(div);
       });

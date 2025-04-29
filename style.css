@@ -2,14 +2,13 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #0b1a2d url('background-candles.jpg') no-repeat center center fixed;
-  background-size: cover;
+  background: #0b1a2d;
   color: #ffffff;
   line-height: 1.6;
 }
 
 header {
-  background-color: rgba(7, 17, 36, 0.9);
+  background-color: #071124;
   padding: 20px;
   text-align: center;
 }
@@ -26,21 +25,6 @@ header p {
   color: #d1d1d1;
 }
 
-.telegram-button {
-  display: inline-block;
-  margin-top: 15px;
-  padding: 10px 20px;
-  background-color: #229ED9;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-}
-
-.telegram-button:hover {
-  background-color: #1c8dc5;
-}
-
 section {
   padding: 40px 20px;
   max-width: 900px;
@@ -49,48 +33,19 @@ section {
   border-radius: 10px;
 }
 
-.setups {
-  margin-top: 30px;
-}
-
 .setup-item {
+  background-color: #1c2b40;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
-  color: #fff;
   font-size: 1em;
-}
-
-/* Cores de status */
-.azul {
-  background-color: #154c79;
-  border-left: 8px solid #1f6fb2;
-}
-
-.verde_claro {
-  background-color: #2d7d46;
-  border-left: 8px solid #50c878;
-}
-
-.vermelho_claro {
-  background-color: #924141;
-  border-left: 8px solid #d96c6c;
-}
-
-.verde {
-  background-color: #1f6632;
-  border-left: 8px solid #3adb76;
-}
-
-.vermelho {
-  background-color: #7d1e1e;
-  border-left: 8px solid #ff5e5e;
+  border-left: 5px solid #f0c14b;
 }
 
 footer {
   text-align: center;
   padding: 20px;
-  background-color: rgba(7, 17, 36, 0.9);
+  background-color: #071124;
   font-size: 0.9em;
   color: #999;
 }
