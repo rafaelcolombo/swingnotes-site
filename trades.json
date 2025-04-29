@@ -1,18 +1,42 @@
 [
   {
-    "ticker": "ALTS",
-    "preco_entrada": 6.14,
-    "quantidade": 16.29,
-    "valor_total": 100.0,
-    "trade_id": "20250425-a35d3aeff465",
-    "data": "2025-04-25 16:32:50"
+    "ticker": "SAND",
+    "preco_entrada": 8.39880000122769,
+    "quantidade": 11.90527218,
+    "valor_total": 99.98999999999998,
+    "trade_id": "20250415-f0d3d318d346",
+    "data": "2025-04-15 14:21:33"
   },
   {
-    "ticker": "NVDA",
-    "preco_entrada": 754.2,
-    "quantidade": 5,
-    "valor_total": 3771.0,
-    "trade_id": "20250428-a21d45a7ff72",
-    "data": "2025-04-28 11:15:00"
+    "ticker": "YALA",
+    "preco_entrada": 6.46000000041344,
+    "quantidade": 15.47987616,
+    "valor_total": 100.0,
+    "trade_id": "20250414-b68b00a1aab6",
+    "data": "2025-04-14 10:51:23"
+  },
+  {
+    "ticker": "AU",
+    "preco_entrada": 42.722800096750056,
+    "quantidade": 2.34067055,
+    "valor_total": 100.00000000000001,
+    "trade_id": "20250411-551d0746d586",
+    "data": "2025-04-11 14:15:04"
+  },
+  {
+    "ticker": "HMY",
+    "preco_entrada": 16.208800001163258,
+    "quantidade": 6.16887123,
+    "valor_total": 99.98999999999998,
+    "trade_id": "20250410-866b17fe0df5",
+    "data": "2025-04-10 14:10:23"
+  },
+  {
+    "ticker": "AGL",
+    "preco_entrada": 5.588000002311428,
+    "quantidade": 17.89370078,
+    "valor_total": 99.99,
+    "trade_id": "20250408-d5b39320bb3b",
+    "data": "2025-04-08 10:51:40"
   }
 ]
