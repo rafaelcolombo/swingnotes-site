@@ -1,5 +1,13 @@
 [
     {
+        "ticker": "AAPL",
+        "entrada_saida": "Entrada: USD 205.00",
+        "pnl": "PnL: USD 6.21 (+3.03%)",
+        "retorno_dia": "Retorno/dia: +3.03% (1 dias úteis)",
+        "status": "aberto",
+        "cor": "azul"
+    },
+    {
         "ticker": "SAND",
         "entrada_saida": "Entrada: USD 8.40 | Saída: USD 8.43",
         "pnl": "PnL: USD 0.38 (+0.38%)",
