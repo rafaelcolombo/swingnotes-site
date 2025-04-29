@@ -3,7 +3,6 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Swing Notes - Trades Fechados</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -31,7 +30,7 @@
       container.innerHTML = '';
       data.forEach(trade => {
         const div = document.createElement('div');
-        div.className = 'setup-item';
+        div.className = 'setup-item ' + trade.cor;
         div.innerHTML = `
           <strong>${trade.ticker}</strong><br>
           ${trade.entrada_saida}<br>
