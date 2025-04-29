@@ -55,8 +55,36 @@ section {
 
 .setup-item {
   margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #334e68;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1em;
+}
+
+/* Cores de status */
+.azul {
+  background-color: #154c79;
+  border-left: 8px solid #1f6fb2;
+}
+
+.verde_claro {
+  background-color: #2d7d46;
+  border-left: 8px solid #50c878;
+}
+
+.vermelho_claro {
+  background-color: #924141;
+  border-left: 8px solid #d96c6c;
+}
+
+.verde {
+  background-color: #1f6632;
+  border-left: 8px solid #3adb76;
+}
+
+.vermelho {
+  background-color: #7d1e1e;
+  border-left: 8px solid #ff5e5e;
 }
 
 footer {

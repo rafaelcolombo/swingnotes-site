@@ -31,7 +31,7 @@
 </footer>
 
 <script>
-  fetch('trades.json')
+  fetch('trades_completos.json')
     .then(response => response.json())
     .then(data => {
       const container = document.getElementById('setups-container');
@@ -39,12 +39,15 @@
 
       data.forEach(trade => {
         const div = document.createElement('div');
-        div.className = 'setup-item';
+        div.className = 'setup-item ' + trade.cor;
         div.innerHTML = `
           <strong>Ativo:</strong> ${trade.ticker}<br>
           <strong>Preço de Entrada:</strong> US$ ${trade.preco_entrada}<br>
-          <strong>Data:</strong> ${trade.data}<br>
-          <strong>Trade ID:</strong> ${trade.trade_id}
+          <strong>Quantidade:</strong> ${trade.quantidade}<br>
+          <strong>Valor Total:</strong> US$ ${trade.valor_total}<br>
+          <strong>Status:</strong> ${trade.status.toUpperCase()}<br>
+          <strong>Trade ID:</strong> ${trade.trade_id}<br>
+          <strong>Data:</strong> ${trade.data}
         `;
         container.appendChild(div);
       });
