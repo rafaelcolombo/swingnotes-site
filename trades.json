@@ -1,11 +1,11 @@
 [
     {
         "ticker": "META",
-        "entrada_saida": "Entrada: USD 550.00",
-        "pnl": "PnL: USD 4.44 (+0.81%)",
-        "retorno_dia": "Retorno/dia: +0.81% (1 dias úteis)",
-        "status": "aberto",
-        "cor": "azul"
+        "entrada_saida": "Entrada: USD 550.00 | Parcial: USD 280.00",
+        "pnl": "PnL: USD 7.22 (+1.31%)",
+        "retorno_dia": "Retorno/dia: +1.31% (1 dias úteis)",
+        "status": "parcial_lucro",
+        "cor": "verde_claro"
     },
     {
         "ticker": "SAND",
