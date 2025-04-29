@@ -1,0 +1,18 @@
+[
+  {
+    "ticker": "ALTS",
+    "preco_entrada": 6.14,
+    "quantidade": 16.29,
+    "valor_total": 100.0,
+    "trade_id": "20250425-a35d3aeff465",
+    "data": "2025-04-25 16:32:50"
+  },
+  {
+    "ticker": "NVDA",
+    "preco_entrada": 754.2,
+    "quantidade": 5,
+    "valor_total": 3771.0,
+    "trade_id": "20250428-a21d45a7ff72",
+    "data": "2025-04-28 11:15:00"
+  }
+]

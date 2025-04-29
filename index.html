@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Swing Notes - Análise Técnica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Swing Notes</h1>
+  <p>Setups Técnicos Gerados por Análise Avançada</p>
+</header>
+
+<section>
+  <h2>Sobre o Sistema</h2>
+  <p>O Swing Notes automatiza a identificação de setups técnicos de alta probabilidade no mercado de ações. Combinando indicadores como RSI, MACD, CCI, Volume, ADX e Médias Móveis, oferecemos uma visão técnica precisa para auxiliar suas decisões de investimento.</p>
+</section>
+
+<section class="setups">
+  <h2>Últimos Setups Detectados</h2>
+  <div id="setups-container">Carregando setups...</div>
+</section>
+
+<footer>
+  © 2025 Swing Notes - Todos os direitos reservados.
+</footer>
+
+<script>
+  fetch('trades.json')
+    .then(response => response.json())
+    .then(data => {
+      const container = document.getElementById('setups-container');
+      container.innerHTML = '';
+
+      data.forEach(trade => {
+        const div = document.createElement('div');
+        div.className = 'setup-item';
+        div.innerHTML = `
+          <strong>Ativo:</strong> ${trade.ticker}<br>
+          <strong>Preço de Entrada:</strong> US$ ${trade.preco_entrada}<br>
+          <strong>Data:</strong> ${trade.data}<br>
+          <strong>Trade ID:</strong> ${trade.trade_id}
+        `;
+        container.appendChild(div);
+      });
+    })
+    .catch(error => {
+      console.error('Erro ao carregar setups:', error);
+      document.getElementById('setups-container').innerText = 'Erro ao carregar setups.';
+    });
+</script>
+
+</body>
+</html>
