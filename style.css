@@ -1,0 +1,80 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0b1a2d;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #071124;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #f0c14b;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #d1d1d1;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: rgba(20, 33, 61, 0.85);
+  border-radius: 10px;
+}
+
+.setup-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1em;
+  transition: transform 0.3s ease;
+}
+
+.setup-item:hover {
+  transform: translateY(-5px);
+}
+
+/* Cores de status */
+.verde {
+  background-color: #1f6632;
+  border-left: 8px solid #3adb76;
+}
+
+.vermelho {
+  background-color: #7d1e1e;
+  border-left: 8px solid #ff5e5e;
+}
+
+.azul {
+  background-color: #154c79;
+  border-left: 8px solid #1f6fb2;
+}
+
+.verde_claro {
+  background-color: #2d7d46;
+  border-left: 8px solid #50c878;
+}
+
+.vermelho_claro {
+  background-color: #924141;
+  border-left: 8px solid #d96c6c;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #071124;
+  font-size: 0.9em;
+  color: #999;
+}
