@@ -52,17 +52,25 @@
 </section>
 
 <section>
-  
+  <div class="resumo-row" id="resumo-operacional-container">
     Carregando performance...
-  </section>
+  </div>
+</section>
 
 <section>
   <h2>Trades Abertos</h2>
-  <div id="abertos-container">Carregando setups...</section>
+  <div id="abertos-container">Carregando setups...</div>
+</section>
 
 <section>
   <h2>Trades Fechados</h2>
-  <div id="fechados-container">Carregando setups...</section>
+  <div id="fechados-container">Carregando setups...</div>
+
+</section>
+
+<p id="ultima-atualizacao" style="text-align:center; font-size:0.85rem; margin-top:20px; color:#999;">
+  Última atualização: carregando...
+</p>
 
 <footer>
   © 2025 Swing Notes - Todos os direitos reservados.
@@ -81,12 +89,13 @@
       data.forEach(trade => {
         const div = document.createElement('div');
         div.className = 'setup-item ' + trade.cor;
-        div.innerHTML = `
-          <strong>${trade.ticker}</strong><br>
-          ${trade.entrada_saida}<br>
-          ${trade.pnl}<br>
-          ${trade.retorno_dia}
-        `;
+	div.innerHTML = `
+	  <strong>${trade.ticker}</strong><br>
+	  ${trade.entrada_saida}<br>
+	  ${trade.pnl}<br>
+	  ${trade.retorno_dia}<br>
+	  <i>${trade.data}</i>
+	`;
 
         if (trade.status === 'fechado') {
           fechados.appendChild(div);
@@ -133,5 +142,27 @@
     });
 </script>
 
+
+<script>
+  fetch('trades.json', { method: 'HEAD' })
+    .then(response => {
+      const dataMod = response.headers.get('last-modified');
+      if (dataMod) {
+        const dataFormatada = new Date(dataMod).toLocaleString('pt-BR', {
+          timeZone: 'America/Sao_Paulo',
+          day: '2-digit',
+          month: '2-digit',
+          year: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit'
+        });
+        document.getElementById('ultima-atualizacao').innerText = `Última atualização dos trades: ${dataFormatada}`;
+      }
+    })
+    .catch(() => {
+      document.getElementById('ultima-atualizacao').innerText = 'Última atualização dos trades: (erro ao verificar)';
+    });
+</script>
 </body>
 </html>
+
