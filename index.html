@@ -38,8 +38,44 @@
     .resumo-card p {
       margin: 4px 0;
     }
+
+    .colunas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+    }
+
+    .coluna {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .coluna h3 {
+      text-align: center;
+      color: #f0c14b;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .setup-item {
+      background-color: #14213d;
+      border-left: 8px solid #1f6fb2;
+      padding: 10px 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+
+    .verde { border-left-color: #3adb76; background-color: #1f6632; }
+    .vermelho { border-left-color: #ff5e5e; background-color: #7d1e1e; }
+    .verde_claro { border-left-color: #50c878; background-color: #2d7d46; }
+    .vermelho_claro { border-left-color: #d96c6c; background-color: #924141; }
+    .azul { border-left-color: #1f6fb2; background-color: #154c79; }
   
-    #fechados-container, #fechados-reais, #fechados-simulados {
+    #fechados-reais, #fechados-simulados {
       max-height: 500px;
       overflow-y: auto;
       padding-right: 10px;
@@ -62,11 +98,29 @@
 </section>
 <section>
 <h2>Trades Abertos</h2>
-<div id="abertos-container">Carregando setups...</div>
+<div class="colunas">
+<div class="coluna">
+<h3>Reais</h3>
+<div id="abertos-reais">Carregando setups...</div>
+</div>
+<div class="coluna">
+<h3>Simulados</h3>
+<div id="abertos-simulados">Carregando setups...</div>
+</div>
+</div>
 </section>
 <section>
 <h2>Trades Fechados</h2>
-<div id="fechados-container">Carregando setups...</div>
+<div class="colunas">
+<div class="coluna">
+<h3>Reais</h3>
+<div id="fechados-reais">Carregando setups...</div>
+</div>
+<div class="coluna">
+<h3>Simulados</h3>
+<div id="fechados-simulados">Carregando setups...</div>
+</div>
+</div>
 </section>
 <p id="ultima-atualizacao" style="text-align:center; font-size:0.85rem; margin-top:20px; color:#999;">
   Última atualização: carregando...
@@ -74,41 +128,38 @@
 <footer>
   © 2025 Swing Notes - Todos os direitos reservados.
 </footer>
-<!-- Script para carregar trades -->
 <script>
-  fetch('trades.json')
-    .then(response => response.json())
-    .then(data => {
-      const abertos = document.getElementById('abertos-container');
-      const fechados = document.getElementById('fechados-container');
-      abertos.innerHTML = '';
-      fechados.innerHTML = '';
+function renderTrades(trades, abertoID, fechadoID, ordenarDesc = false) {
+  const abertos = document.getElementById(abertoID);
+  const fechados = document.getElementById(fechadoID);
+  abertos.innerHTML = '';
+  fechados.innerHTML = '';
 
-      data.forEach(trade => {
-        const div = document.createElement('div');
-        div.className = 'setup-item ' + trade.cor;
-	div.innerHTML = `
-	  <strong>${trade.ticker}</strong><br>
-	  ${trade.entrada_saida}<br>
-	  ${trade.pnl}<br>
-	  ${trade.retorno_dia}<br>
-	  <i>${trade.data}</i>
-	`;
+  if (ordenarDesc) {
+    trades.sort((a, b) => new Date(b.data.split(' ')[0].split('/').reverse().join('-')) - new Date(a.data.split(' ')[0].split('/').reverse().join('-')));
+  }
 
-        if (trade.status === 'fechado') {
-          fechados.appendChild(div);
-        } else {
-          abertos.appendChild(div);
-        }
-      });
-    })
-    .catch(error => {
-      console.error('Erro ao carregar setups:', error);
-      document.getElementById('abertos-container').innerText = 'Erro ao carregar setups.';
-      document.getElementById('fechados-container').innerText = 'Erro ao carregar setups.';
-    });
+  trades.forEach(trade => {
+    const div = document.createElement('div');
+    div.className = 'setup-item ' + trade.cor;
+    div.innerHTML = `
+      <strong>${trade.ticker}</strong><br>
+      ${trade.entrada_saida}<br>
+      ${trade.pnl}<br>
+      ${trade.retorno_dia}<br>
+      <i>${trade.data}</i>
+    `;
+    if (trade.status === 'fechado') {
+      fechados.appendChild(div);
+    } else {
+      abertos.appendChild(div);
+    }
+  });
+}
+
+fetch('trades.json').then(res => res.json()).then(data => renderTrades(data, 'abertos-reais', 'fechados-reais'));
+fetch('trades_simulados.json').then(res => res.json()).then(data => renderTrades(data, 'abertos-simulados', 'fechados-simulados', true));
 </script>
-<!-- Script para carregar resumo_operacional -->
 <script>
   fetch('resumo.json')
     .then(response => response.json())
@@ -132,10 +183,6 @@
         }
         container.appendChild(card);
       }
-    })
-    .catch(error => {
-      console.error('Erro ao carregar resumo operacional:', error);
-      document.getElementById('resumo-operacional-container').innerText = 'Erro ao carregar performance.';
     });
 </script>
 <script>
@@ -157,6 +204,5 @@
     .catch(() => {
       document.getElementById('ultima-atualizacao').innerText = 'Última atualização dos trades: (erro ao verificar)';
     });
-</script>
-</body>
+</script></body>
 </html>
