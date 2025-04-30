@@ -41,7 +41,7 @@
     .colunas {
       display: flex;
       flex-wrap: wrap;
-      gap: 40px;
+      gap: 20px;
       justify-content: space-between;
     }
 
@@ -53,6 +53,10 @@
     .coluna h3 {
       text-align: center;
       color: #f0c14b;
+    }
+
+    h2 {
+      text-align: center;
     }
 
     .setup-item {
@@ -77,6 +81,17 @@
   <h1>Swing Notes</h1>
   <p>Detectamos automaticamente setups técnicos de alta probabilidade para investidores que buscam aumentar a precisão de suas operações swing trade.</p>
 </header>
+
+<section>
+  <h2>Sobre o Swing Notes</h2>
+  <p>O Swing Notes é seu parceiro estratégico no mercado financeiro. Utilizando análise técnica avançada, inteligência de indicadores e um sistema automatizado de monitoramento de trades, entregamos insights prontos para ação. Com nosso sistema, investidores conseguem identificar oportunidades, gerenciar melhor seus riscos e maximizar o potencial de seus resultados.</p>
+</section>
+
+<section>
+  <div class="resumo-row" id="resumo-operacional-container">
+    Carregando performance...
+  </div>
+</section>
 
 <section>
   <h2>Trades Abertos</h2>
@@ -106,47 +121,71 @@
   </div>
 </section>
 
+<p id="ultima-atualizacao" style="text-align:center; font-size:0.85rem; margin-top:20px; color:#999;">
+  Última atualização: carregando...
+</p>
+
 <footer>
-  <p style="text-align:center; font-size:0.85rem; color:#999;">© 2025 Swing Notes - Todos os direitos reservados.</p>
+  © 2025 Swing Notes - Todos os direitos reservados.
 </footer>
 
 <script>
-function carregarTrades(caminho, idAberto, idFechado) {
-  fetch(caminho)
-    .then(response => response.json())
-    .then(data => {
-      const abertos = document.getElementById(idAberto);
-      const fechados = document.getElementById(idFechado);
-      abertos.innerHTML = '';
-      fechados.innerHTML = '';
+function renderTrades(trades, abertoID, fechadoID, ordenarDesc = false) {
+  const abertos = document.getElementById(abertoID);
+  const fechados = document.getElementById(fechadoID);
+  abertos.innerHTML = '';
+  fechados.innerHTML = '';
 
-      data.forEach(trade => {
-        const div = document.createElement('div');
-        div.className = 'setup-item ' + trade.cor;
-        div.innerHTML = `
-          <strong>${trade.ticker}</strong><br>
-          ${trade.entrada_saida}<br>
-          ${trade.pnl}<br>
-          ${trade.retorno_dia}<br>
-          <i>${trade.data}</i>
-        `;
+  if (ordenarDesc) {
+    trades.sort((a, b) => new Date(b.data.split(' ')[0].split('/').reverse().join('-')) - new Date(a.data.split(' ')[0].split('/').reverse().join('-')));
+  }
 
-        if (trade.status === 'fechado') {
-          fechados.appendChild(div);
-        } else {
-          abertos.appendChild(div);
-        }
-      });
-    })
-    .catch(error => {
-      console.error('Erro ao carregar ' + caminho, error);
-      document.getElementById(idAberto).innerText = 'Erro ao carregar setups.';
-      document.getElementById(idFechado).innerText = 'Erro ao carregar setups.';
-    });
+  trades.forEach(trade => {
+    const div = document.createElement('div');
+    div.className = 'setup-item ' + trade.cor;
+    div.innerHTML = `
+      <strong>${trade.ticker}</strong><br>
+      ${trade.entrada_saida}<br>
+      ${trade.pnl}<br>
+      ${trade.retorno_dia}<br>
+      <i>${trade.data}</i>
+    `;
+    if (trade.status === 'fechado') {
+      fechados.appendChild(div);
+    } else {
+      abertos.appendChild(div);
+    }
+  });
 }
 
-carregarTrades('trades.json', 'abertos-reais', 'fechados-reais');
-carregarTrades('trades_simulados.json', 'abertos-simulados', 'fechados-simulados');
+fetch('trades.json').then(res => res.json()).then(data => renderTrades(data, 'abertos-reais', 'fechados-reais'));
+fetch('trades_simulados.json').then(res => res.json()).then(data => renderTrades(data, 'abertos-simulados', 'fechados-simulados', true));
+</script>
+
+<script>
+  fetch('resumo.json')
+    .then(response => response.json())
+    .then(data => {
+      const container = document.getElementById('resumo-operacional-container');
+      container.innerHTML = '';
+
+      const blocos = {
+        "Fechados": data.Fechados,
+        "Abertos/Parciais": data.Abertos_Parciais,
+        "Posição Geral": data.Geral
+      };
+
+      for (const [titulo, valores] of Object.entries(blocos)) {
+        const card = document.createElement('div');
+        card.className = 'resumo-card';
+        card.innerHTML = `<h4>${titulo}</h4>`;
+        for (const [chave, valor] of Object.entries(valores)) {
+          const cor = valor > 0 ? 'style="color:#50c878;"' : (valor < 0 ? 'style="color:#ff6f61;"' : '');
+          card.innerHTML += `<p><span ${cor}>${chave}: ${valor > 0 ? '+' : ''}${valor}</span></p>`;
+        }
+        container.appendChild(card);
+      }
+    });
 </script>
 
 </body>
