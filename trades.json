@@ -1,56 +1,56 @@
 [
-  {
-    "ticker": "META",
-    "entrada_saida": "Entrada: USD 549.00 | Sa\u00edda: USD 549.00",
-    "pnl": "PnL: USD +0.00 (+0.00%)",
-    "retorno_dia": "Retorno/dia: +0.00%",
-    "data": "30/04/2025 (1 dias \u00fateis)",
-    "status": "aberto",
-    "cor": "azul"
-  },
-  {
-    "ticker": "SAND",
-    "entrada_saida": "Entrada: USD 8.40 | Sa\u00edda: USD 8.43",
-    "pnl": "PnL: USD 0.38 (+0.38%)",
-    "retorno_dia": "Retorno/dia: +0.05%",
-    "data": "15/04/2025 (8 dias \u00fateis)",
-    "status": "fechado",
-    "cor": "verde"
-  },
-  {
-    "ticker": "YALA",
-    "entrada_saida": "Entrada: USD 6.46 | Sa\u00edda: USD 7.36",
-    "pnl": "PnL: USD 13.90 (+13.90%)",
-    "retorno_dia": "Retorno/dia: +1.19%",
-    "data": "14/04/2025 (11 dias \u00fateis)",
-    "status": "fechado",
-    "cor": "verde"
-  },
-  {
-    "ticker": "AU",
-    "entrada_saida": "Entrada: USD 42.72 | Sa\u00edda: USD 40.36",
-    "pnl": "PnL: USD -5.52 (-5.52%)",
-    "retorno_dia": "Retorno/dia: -0.63%",
-    "data": "11/04/2025 (9 dias \u00fateis)",
-    "status": "fechado",
-    "cor": "vermelho"
-  },
-  {
-    "ticker": "HMY",
-    "entrada_saida": "Entrada: USD 16.21 | Sa\u00edda: USD 16.59",
-    "pnl": "PnL: USD 2.38 (+2.38%)",
-    "retorno_dia": "Retorno/dia: +0.26%",
-    "data": "10/04/2025 (9 dias \u00fateis)",
-    "status": "fechado",
-    "cor": "verde"
-  },
-  {
-    "ticker": "AGL",
-    "entrada_saida": "Entrada: USD 5.59 | Sa\u00edda: USD 4.50",
-    "pnl": "PnL: USD -19.47 (-19.47%)",
-    "retorno_dia": "Retorno/dia: -3.05%",
-    "data": "08/04/2025 (7 dias \u00fateis)",
-    "status": "fechado",
-    "cor": "vermelho"
-  }
+    {
+        "ticker": "META",
+        "entrada_saida": "Entrada: USD 540.00",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "30/04/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "azul"
+    },
+    {
+        "ticker": "SAND",
+        "entrada_saida": "Entrada: USD 8.40 | Saída: USD 8.43",
+        "pnl": "PnL: USD 0.38 (+0.38%)",
+        "retorno_dia": "Retorno/dia: +0.05%",
+        "data": "15/04/2025 (8 dias úteis)",
+        "status": "fechado",
+        "cor": "verde"
+    },
+    {
+        "ticker": "YALA",
+        "entrada_saida": "Entrada: USD 6.46 | Saída: USD 7.36",
+        "pnl": "PnL: USD 13.90 (+13.90%)",
+        "retorno_dia": "Retorno/dia: +1.19%",
+        "data": "14/04/2025 (11 dias úteis)",
+        "status": "fechado",
+        "cor": "verde"
+    },
+    {
+        "ticker": "AU",
+        "entrada_saida": "Entrada: USD 42.72 | Saída: USD 40.36",
+        "pnl": "PnL: USD -5.52 (-5.52%)",
+        "retorno_dia": "Retorno/dia: -0.63%",
+        "data": "11/04/2025 (9 dias úteis)",
+        "status": "fechado",
+        "cor": "vermelho"
+    },
+    {
+        "ticker": "HMY",
+        "entrada_saida": "Entrada: USD 16.21 | Saída: USD 16.59",
+        "pnl": "PnL: USD 2.38 (+2.38%)",
+        "retorno_dia": "Retorno/dia: +0.26%",
+        "data": "10/04/2025 (9 dias úteis)",
+        "status": "fechado",
+        "cor": "verde"
+    },
+    {
+        "ticker": "AGL",
+        "entrada_saida": "Entrada: USD 5.59 | Saída: USD 4.50",
+        "pnl": "PnL: USD -19.47 (-19.47%)",
+        "retorno_dia": "Retorno/dia: -3.05%",
+        "data": "08/04/2025 (7 dias úteis)",
+        "status": "fechado",
+        "cor": "vermelho"
+    }
 ]
