@@ -181,27 +181,27 @@
   },
   {
     "ticker": "PLX",
-    "entrada_saida": "Entrada: USD 3.09",
-    "pnl": "PnL: USD 0.00 (+0.00%)",
-    "retorno_dia": "Retorno/dia: +0.00%",
+    "entrada_saida": "Entrada: USD 3.09 | Sa\u00edda: USD 3.07",
+    "pnl": "PnL: USD -0.02 (-0.65%)",
+    "retorno_dia": "Retorno/dia: -0.65%",
     "data": "30/04/2025 (1 dias \u00fateis)",
     "status": "em_andamento",
     "cor": "azul"
   },
   {
     "ticker": "PLTR",
-    "entrada_saida": "Entrada: USD 118.53",
-    "pnl": "PnL: USD 0.00 (+0.00%)",
-    "retorno_dia": "Retorno/dia: +0.00%",
+    "entrada_saida": "Entrada: USD 118.53 | Sa\u00edda: USD 118.44",
+    "pnl": "PnL: USD -0.09 (-0.08%)",
+    "retorno_dia": "Retorno/dia: -0.08%",
     "data": "30/04/2025 (1 dias \u00fateis)",
     "status": "em_andamento",
     "cor": "azul"
   },
   {
     "ticker": "RGC",
-    "entrada_saida": "Entrada: USD 45.08",
-    "pnl": "PnL: USD 0.00 (+0.00%)",
-    "retorno_dia": "Retorno/dia: +0.00%",
+    "entrada_saida": "Entrada: USD 45.08 | Sa\u00edda: USD 60.00",
+    "pnl": "PnL: USD +14.92 (+33.10%)",
+    "retorno_dia": "Retorno/dia: +33.10%",
     "data": "30/04/2025 (1 dias \u00fateis)",
     "status": "em_andamento",
     "cor": "azul"
