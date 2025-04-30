@@ -65,7 +65,12 @@
 <section>
   <h2>Trades Fechados</h2>
   <div id="fechados-container">Carregando setups...</div>
+
 </section>
+
+<p id="ultima-atualizacao" style="text-align:center; font-size:0.85rem; margin-top:20px; color:#999;">
+  Última atualização: carregando...
+</p>
 
 <footer>
   © 2025 Swing Notes - Todos os direitos reservados.
@@ -137,5 +142,27 @@
     });
 </script>
 
+
+<script>
+  fetch('trades.json', { method: 'HEAD' })
+    .then(response => {
+      const dataMod = response.headers.get('last-modified');
+      if (dataMod) {
+        const dataFormatada = new Date(dataMod).toLocaleString('pt-BR', {
+          timeZone: 'America/Sao_Paulo',
+          day: '2-digit',
+          month: '2-digit',
+          year: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit'
+        });
+        document.getElementById('ultima-atualizacao').innerText = `Última atualização dos trades: ${dataFormatada}`;
+      }
+    })
+    .catch(() => {
+      document.getElementById('ultima-atualizacao').innerText = 'Última atualização dos trades: (erro ao verificar)';
+    });
+</script>
 </body>
 </html>
+
