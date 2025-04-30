@@ -37,12 +37,12 @@
     },
     {
         "ticker": "AAPL",
-        "entrada_saida": "Entrada: USD 212.50",
+        "entrada_saida": "Entrada: USD 212.50 | Saída: USD 212.50",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
         "data": "30/04/2025 (1 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "ULY",
