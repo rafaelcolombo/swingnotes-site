@@ -15,7 +15,7 @@
         "retorno_dia": "Retorno/dia: +33.10%",
         "data": "30/04/2025 (1 dias úteis)",
         "status": "aberto",
-        "cor": "azul"
+        "cor": "verde_claro"
     },
     {
         "ticker": "PLX",
@@ -24,7 +24,7 @@
         "retorno_dia": "Retorno/dia: -0.49%",
         "data": "30/04/2025 (1 dias úteis)",
         "status": "aberto",
-        "cor": "azul"
+        "cor": "vermelho_claro"
     },
     {
         "ticker": "PLTR",
@@ -33,16 +33,16 @@
         "retorno_dia": "Retorno/dia: -0.07%",
         "data": "30/04/2025 (1 dias úteis)",
         "status": "aberto",
-        "cor": "azul"
+        "cor": "vermelho_claro"
     },
     {
-        "ticker": "NVDA",
-        "entrada_saida": "Entrada: USD 108.92",
+        "ticker": "AAPL",
+        "entrada_saida": "Entrada: USD 212.50",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
         "data": "30/04/2025 (1 dias úteis)",
         "status": "aberto",
-        "cor": "azul"
+        "cor": "vermelho_claro"
     },
     {
         "ticker": "ULY",
