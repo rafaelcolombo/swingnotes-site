@@ -1,11 +1,12 @@
 
 <!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Swing Notes - Análises Técnicas</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
+<meta charset="utf-8"/>
+<title>Swing Notes - Análises Técnicas</title>
+<link href="style.css" rel="stylesheet"/>
+<style>
     .resumo-row {
       display: flex;
       flex-wrap: wrap;
@@ -76,59 +77,51 @@
   </style>
 </head>
 <body>
-
 <header>
-  <h1>Swing Notes</h1>
-  <p>Detectamos automaticamente setups técnicos de alta probabilidade para investidores que buscam aumentar a precisão de suas operações swing trade.</p>
+<h1>Swing Notes</h1>
+<p>Detectamos automaticamente setups técnicos de alta probabilidade para investidores que buscam aumentar a precisão de suas operações swing trade.</p>
 </header>
-
 <section>
-  <h2>Sobre o Swing Notes</h2>
-  <p>O Swing Notes é seu parceiro estratégico no mercado financeiro. Utilizando análise técnica avançada, inteligência de indicadores e um sistema automatizado de monitoramento de trades, entregamos insights prontos para ação. Com nosso sistema, investidores conseguem identificar oportunidades, gerenciar melhor seus riscos e maximizar o potencial de seus resultados.</p>
+<h2>Sobre o Swing Notes</h2>
+<p>O Swing Notes é seu parceiro estratégico no mercado financeiro. Utilizando análise técnica avançada, inteligência de indicadores e um sistema automatizado de monitoramento de trades, entregamos insights prontos para ação. Com nosso sistema, investidores conseguem identificar oportunidades, gerenciar melhor seus riscos e maximizar o potencial de seus resultados.</p>
 </section>
-
 <section>
-  <div class="resumo-row" id="resumo-operacional-container">
+<div class="resumo-row" id="resumo-operacional-container">
     Carregando performance...
   </div>
 </section>
-
 <section>
-  <h2>Trades Abertos</h2>
-  <div class="colunas">
-    <div class="coluna">
-      <h3>Reais</h3>
-      <div id="abertos-reais">Carregando setups...</div>
-    </div>
-    <div class="coluna">
-      <h3>Simulados</h3>
-      <div id="abertos-simulados">Carregando setups...</div>
-    </div>
-  </div>
+<h2>Trades Abertos</h2>
+<div class="colunas">
+<div class="coluna">
+<h3>Reais</h3>
+<div id="abertos-reais">Carregando setups...</div>
+</div>
+<div class="coluna">
+<h3>Simulados</h3>
+<div id="abertos-simulados">Carregando setups...</div>
+</div>
+</div>
 </section>
-
 <section>
-  <h2>Trades Fechados</h2>
-  <div class="colunas">
-    <div class="coluna">
-      <h3>Reais</h3>
-      <div id="fechados-reais">Carregando setups...</div>
-    </div>
-    <div class="coluna">
-      <h3>Simulados</h3>
-      <div id="fechados-simulados">Carregando setups...</div>
-    </div>
-  </div>
+<h2>Trades Fechados</h2>
+<div class="colunas">
+<div class="coluna">
+<h3>Reais</h3>
+<div id="fechados-reais">Carregando setups...</div>
+</div>
+<div class="coluna">
+<h3>Simulados</h3>
+<div id="fechados-simulados">Carregando setups...</div>
+</div>
+</div>
 </section>
-
 <p id="ultima-atualizacao" style="text-align:center; font-size:0.85rem; margin-top:20px; color:#999;">
   Última atualização: carregando...
 </p>
-
 <footer>
   © 2025 Swing Notes - Todos os direitos reservados.
 </footer>
-
 <script>
 function renderTrades(trades, abertoID, fechadoID, ordenarDesc = false) {
   const abertos = document.getElementById(abertoID);
@@ -161,7 +154,6 @@ function renderTrades(trades, abertoID, fechadoID, ordenarDesc = false) {
 fetch('trades.json').then(res => res.json()).then(data => renderTrades(data, 'abertos-reais', 'fechados-reais'));
 fetch('trades_simulados.json').then(res => res.json()).then(data => renderTrades(data, 'abertos-simulados', 'fechados-simulados', true));
 </script>
-
 <script>
   fetch('resumo.json')
     .then(response => response.json())
@@ -187,6 +179,24 @@ fetch('trades_simulados.json').then(res => res.json()).then(data => renderTrades
       }
     });
 </script>
-
-</body>
+<script>
+  fetch('trades.json', { method: 'HEAD' })
+    .then(response => {
+      const dataMod = response.headers.get('last-modified');
+      if (dataMod) {
+        const dataFormatada = new Date(dataMod).toLocaleString('pt-BR', {
+          timeZone: 'America/Sao_Paulo',
+          day: '2-digit',
+          month: '2-digit',
+          year: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit'
+        });
+        document.getElementById('ultima-atualizacao').innerText = `Última atualização dos trades: ${dataFormatada}`;
+      }
+    })
+    .catch(() => {
+      document.getElementById('ultima-atualizacao').innerText = 'Última atualização dos trades: (erro ao verificar)';
+    });
+</script></body>
 </html>
