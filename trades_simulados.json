@@ -1,0 +1,209 @@
+[
+  {
+    "ticker": "XGN",
+    "entrada_saida": "Entrada: USD 5.60 | Sa\u00edda: USD 5.68",
+    "pnl": "PnL: USD +1.37 (+1.37%)",
+    "retorno_dia": "Retorno/dia: +0.19%",
+    "data": "23/04/2025 (7 dias \u00fateis)",
+    "status": "fechado",
+    "cor": "verde"
+  },
+  {
+    "ticker": "AREN",
+    "entrada_saida": "Entrada: USD 3.15 | Sa\u00edda: USD 4.30",
+    "pnl": "PnL: USD +36.67 (+36.67%)",
+    "retorno_dia": "Retorno/dia: +4.56%",
+    "data": "23/04/2025 (7 dias \u00fateis)",
+    "status": "fechado",
+    "cor": "verde"
+  },
+  {
+    "ticker": "RGLS",
+    "entrada_saida": "Entrada: USD 2.72 | Sa\u00edda: USD 3.40",
+    "pnl": "PnL: USD +25.00 (+25.00%)",
+    "retorno_dia": "Retorno/dia: +3.79%",
+    "data": "24/04/2025 (6 dias \u00fateis)",
+    "status": "fechado",
+    "cor": "verde"
+  },
+  {
+    "ticker": "TMC",
+    "entrada_saida": "Entrada: USD 3.29 | Sa\u00edda: USD 3.21",
+    "pnl": "PnL: USD -2.13 (-2.13%)",
+    "retorno_dia": "Retorno/dia: -0.36%",
+    "data": "24/04/2025 (6 dias \u00fateis)",
+    "status": "fechado",
+    "cor": "vermelho"
+  },
+  {
+    "ticker": "TOI",
+    "entrada_saida": "Entrada: USD 3.19 | Sa\u00edda: USD 3.09",
+    "pnl": "PnL: USD -3.17 (-3.17%)",
+    "retorno_dia": "Retorno/dia: -0.54%",
+    "data": "24/04/2025 (6 dias \u00fateis)",
+    "status": "fechado",
+    "cor": "vermelho"
+  },
+  {
+    "ticker": "CEP",
+    "entrada_saida": "Entrada: USD 27.88 | Sa\u00edda: USD 32.25",
+    "pnl": "PnL: USD +15.67 (+15.67%)",
+    "retorno_dia": "Retorno/dia: +2.46%",
+    "data": "24/04/2025 (6 dias \u00fateis)",
+    "status": "fechado",
+    "cor": "verde"
+  },
+  {
+    "ticker": "SURG",
+    "entrada_saida": "Entrada: USD 2.98 | Sa\u00edda: USD 2.97",
+    "pnl": "PnL: USD -0.50 (-0.50%)",
+    "retorno_dia": "Retorno/dia: -0.08%",
+    "data": "24/04/2025 (6 dias \u00fateis)",
+    "status": "fechado",
+    "cor": "vermelho"
+  },
+  {
+    "ticker": "SMMT",
+    "entrada_saida": "Entrada: USD 36.65 | Sa\u00edda: USD 23.21",
+    "pnl": "PnL: USD -36.68 (-36.68%)",
+    "retorno_dia": "Retorno/dia: -7.33%",
+    "data": "24/04/2025 (6 dias \u00fateis)",
+    "status": "fechado",
+    "cor": "vermelho"
+  },
+  {
+    "ticker": "TDUP",
+    "entrada_saida": "Entrada: USD 4.12 | Sa\u00edda: USD 4.50",
+    "pnl": "PnL: USD +9.20 (+9.20%)",
+    "retorno_dia": "Retorno/dia: +1.48%",
+    "data": "24/04/2025 (6 dias \u00fateis)",
+    "status": "fechado",
+    "cor": "verde"
+  },
+  {
+    "ticker": "GOOGL",
+    "entrada_saida": "Entrada: USD 159.28 | Sa\u00edda: USD 159.06",
+    "pnl": "PnL: USD -0.14 (-0.14%)",
+    "retorno_dia": "Retorno/dia: -0.03%",
+    "data": "25/04/2025 (5 dias \u00fateis)",
+    "status": "fechado",
+    "cor": "vermelho"
+  },
+  {
+    "ticker": "OCG",
+    "entrada_saida": "Entrada: USD 4.09 | Sa\u00edda: USD 3.74",
+    "pnl": "PnL: USD -8.56 (-8.56%)",
+    "retorno_dia": "Retorno/dia: -1.77%",
+    "data": "25/04/2025 (5 dias \u00fateis)",
+    "status": "fechado",
+    "cor": "vermelho"
+  },
+  {
+    "ticker": "UPXI",
+    "entrada_saida": "Entrada: USD 16.00 | Sa\u00edda: USD 15.49",
+    "pnl": "PnL: USD -3.21 (-3.21%)",
+    "retorno_dia": "Retorno/dia: -0.65%",
+    "data": "25/04/2025 (5 dias \u00fateis)",
+    "status": "fechado",
+    "cor": "vermelho"
+  },
+  {
+    "ticker": "NEON",
+    "entrada_saida": "Entrada: USD 11.24 | Sa\u00edda: USD 11.05",
+    "pnl": "PnL: USD -1.71 (-1.71%)",
+    "retorno_dia": "Retorno/dia: -0.34%",
+    "data": "25/04/2025 (5 dias \u00fateis)",
+    "status": "fechado",
+    "cor": "vermelho"
+  },
+  {
+    "ticker": "ALTS",
+    "entrada_saida": "Entrada: USD 6.14 | Sa\u00edda: USD 5.51",
+    "pnl": "PnL: USD -10.26 (-10.26%)",
+    "retorno_dia": "Retorno/dia: -2.14%",
+    "data": "25/04/2025 (5 dias \u00fateis)",
+    "status": "fechado",
+    "cor": "vermelho"
+  },
+  {
+    "ticker": "ADMA",
+    "entrada_saida": "Entrada: USD 25.19 | Sa\u00edda: USD 23.69",
+    "pnl": "PnL: USD -5.95 (-5.95%)",
+    "retorno_dia": "Retorno/dia: -3.02%",
+    "data": "28/04/2025 (2 dias \u00fateis)",
+    "status": "fechado",
+    "cor": "vermelho"
+  },
+  {
+    "ticker": "ALMU",
+    "entrada_saida": "Entrada: USD 9.85 | Sa\u00edda: USD 10.42",
+    "pnl": "PnL: USD +5.78 (+5.78%)",
+    "retorno_dia": "Retorno/dia: +2.85%",
+    "data": "28/04/2025 (2 dias \u00fateis)",
+    "status": "fechado",
+    "cor": "verde"
+  },
+  {
+    "ticker": "ULY",
+    "entrada_saida": "Entrada: USD 9.26 | Sa\u00edda: USD 11.44",
+    "pnl": "PnL: USD +23.54 (+23.54%)",
+    "retorno_dia": "Retorno/dia: +23.54%",
+    "data": "29/04/2025 (1 dias \u00fateis)",
+    "status": "fechado",
+    "cor": "verde"
+  },
+  {
+    "ticker": "DUOT",
+    "entrada_saida": "Entrada: USD 7.96 | Sa\u00edda: USD 7.41",
+    "pnl": "PnL: USD -6.99 (-6.99%)",
+    "retorno_dia": "Retorno/dia: -6.99%",
+    "data": "29/04/2025 (1 dias \u00fateis)",
+    "status": "fechado",
+    "cor": "vermelho"
+  },
+  {
+    "ticker": "LFMD",
+    "entrada_saida": "Entrada: USD 8.27 | Sa\u00edda: USD 7.57",
+    "pnl": "PnL: USD -8.46 (-8.46%)",
+    "retorno_dia": "Retorno/dia: -8.46%",
+    "data": "29/04/2025 (1 dias \u00fateis)",
+    "status": "fechado",
+    "cor": "vermelho"
+  },
+  {
+    "ticker": "NTCL",
+    "entrada_saida": "Entrada: USD 13.61 | Sa\u00edda: USD 13.40",
+    "pnl": "PnL: USD -1.55 (-1.55%)",
+    "retorno_dia": "Retorno/dia: -1.55%",
+    "data": "30/04/2025 (1 dias \u00fateis)",
+    "status": "fechado",
+    "cor": "vermelho"
+  },
+  {
+    "ticker": "RGC",
+    "entrada_saida": "Entrada: USD 45.08 | Sa\u00edda: \u2014",
+    "pnl": "\u2014",
+    "retorno_dia": "\u2014",
+    "data": "30/04/2025 (1 dias \u00fateis)",
+    "status": "em_andamento",
+    "cor": "azul"
+  },
+  {
+    "ticker": "PLX",
+    "entrada_saida": "Entrada: USD 3.09 | Sa\u00edda: \u2014",
+    "pnl": "\u2014",
+    "retorno_dia": "\u2014",
+    "data": "30/04/2025 (1 dias \u00fateis)",
+    "status": "em_andamento",
+    "cor": "azul"
+  },
+  {
+    "ticker": "PLTR",
+    "entrada_saida": "Entrada: USD 118.53 | Sa\u00edda: \u2014",
+    "pnl": "\u2014",
+    "retorno_dia": "\u2014",
+    "data": "30/04/2025 (1 dias \u00fateis)",
+    "status": "em_andamento",
+    "cor": "azul"
+  }
+]
