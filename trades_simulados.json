@@ -186,7 +186,7 @@
     "retorno_dia": "Retorno/dia: -0.65%",
     "data": "30/04/2025 (1 dias \u00fateis)",
     "status": "em_andamento",
-    "cor": "azul"
+    "cor": "vermelho_claro"
   },
   {
     "ticker": "PLTR",
@@ -195,7 +195,7 @@
     "retorno_dia": "Retorno/dia: -0.08%",
     "data": "30/04/2025 (1 dias \u00fateis)",
     "status": "em_andamento",
-    "cor": "azul"
+    "cor": "vermelho_claro"
   },
   {
     "ticker": "RGC",
@@ -204,6 +204,6 @@
     "retorno_dia": "Retorno/dia: +33.10%",
     "data": "30/04/2025 (1 dias \u00fateis)",
     "status": "em_andamento",
-    "cor": "azul"
+    "cor": "verde_claro"
   }
 ]
