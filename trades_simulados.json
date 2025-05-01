@@ -19,27 +19,27 @@
   },
   {
     "ticker": "DOMH",
-    "entrada_saida": "Entrada: USD 5.00 | Sa\u00edda: USD 5.01",
-    "pnl": "PnL: USD +0.01 (+0.10%)",
-    "retorno_dia": "Retorno/dia: +0.10%",
+    "entrada_saida": "Entrada: USD 5.00 | Sa\u00edda: USD 5.03",
+    "pnl": "PnL: USD +0.03 (+0.64%)",
+    "retorno_dia": "Retorno/dia: +0.64%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "ABVE",
-    "entrada_saida": "Entrada: USD 2.13 | Sa\u00edda: USD 2.67",
-    "pnl": "PnL: USD +0.54 (+25.59%)",
-    "retorno_dia": "Retorno/dia: +25.59%",
+    "entrada_saida": "Entrada: USD 2.13 | Sa\u00edda: USD 2.72",
+    "pnl": "PnL: USD +0.59 (+27.70%)",
+    "retorno_dia": "Retorno/dia: +27.70%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "TSHA",
-    "entrada_saida": "Entrada: USD 2.37 | Sa\u00edda: USD 2.41",
-    "pnl": "PnL: USD +0.04 (+1.69%)",
-    "retorno_dia": "Retorno/dia: +1.69%",
+    "entrada_saida": "Entrada: USD 2.37 | Sa\u00edda: USD 2.40",
+    "pnl": "PnL: USD +0.03 (+1.27%)",
+    "retorno_dia": "Retorno/dia: +1.27%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -55,9 +55,9 @@
   },
   {
     "ticker": "RGC",
-    "entrada_saida": "Entrada: USD 45.08 | Sa\u00edda: USD 74.51",
-    "pnl": "PnL: USD +29.43 (+65.28%)",
-    "retorno_dia": "Retorno/dia: +65.28%",
+    "entrada_saida": "Entrada: USD 45.08 | Sa\u00edda: USD 73.06",
+    "pnl": "PnL: USD +27.98 (+62.07%)",
+    "retorno_dia": "Retorno/dia: +62.07%",
     "data": "30/04/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
