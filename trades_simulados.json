@@ -2,8 +2,8 @@
     {
         "ticker": "FNGR",
         "entrada_saida": "Entrada: USD 2.92",
-        "pnl": "PnL: USD -9.93 (-9.93%)",
-        "retorno_dia": "Retorno/dia: -9.93%",
+        "pnl": "PnL: USD -8.22 (-8.22%)",
+        "retorno_dia": "Retorno/dia: -8.22%",
         "data": "01/05/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
@@ -11,11 +11,11 @@
     {
         "ticker": "TRVG",
         "entrada_saida": "Entrada: USD 5.05",
-        "pnl": "PnL: USD -0.51 (-0.51%)",
-        "retorno_dia": "Retorno/dia: -0.51%",
+        "pnl": "PnL: USD 0.20 (+0.20%)",
+        "retorno_dia": "Retorno/dia: +0.20%",
         "data": "01/05/2025 (1 dias úteis)",
         "status": "aberto",
-        "cor": "vermelho_claro"
+        "cor": "verde_claro"
     },
     {
         "ticker": "NTCL",
@@ -29,26 +29,26 @@
     {
         "ticker": "RGC",
         "entrada_saida": "Entrada: USD 45.08",
-        "pnl": "PnL: USD 35.25 (+35.25%)",
-        "retorno_dia": "Retorno/dia: +35.25%",
+        "pnl": "PnL: USD 36.20 (+36.20%)",
+        "retorno_dia": "Retorno/dia: +36.20%",
         "data": "30/04/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "verde_claro"
     },
     {
         "ticker": "PLX",
-        "entrada_saida": "Entrada: USD 3.09",
-        "pnl": "PnL: USD -3.57 (-3.57%)",
-        "retorno_dia": "Retorno/dia: -3.57%",
+        "entrada_saida": "Entrada: USD 3.09 | Saída: USD 2.98",
+        "pnl": "PnL: USD -3.40 (-3.40%)",
+        "retorno_dia": "Retorno/dia: -3.40%",
         "data": "30/04/2025 (1 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "PLTR",
         "entrada_saida": "Entrada: USD 118.53",
-        "pnl": "PnL: USD -0.42 (-0.42%)",
-        "retorno_dia": "Retorno/dia: -0.42%",
+        "pnl": "PnL: USD -0.61 (-0.61%)",
+        "retorno_dia": "Retorno/dia: -0.61%",
         "data": "30/04/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
