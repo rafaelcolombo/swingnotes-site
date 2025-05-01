@@ -10,18 +10,18 @@
   },
   {
     "ticker": "TRVG",
-    "entrada_saida": "Entrada: USD 5.05 | Sa\u00edda: USD 5.36",
-    "pnl": "PnL: USD +0.31 (+6.04%)",
-    "retorno_dia": "Retorno/dia: +6.04%",
+    "entrada_saida": "Entrada: USD 5.05 | Sa\u00edda: USD 5.27",
+    "pnl": "PnL: USD +0.22 (+4.36%)",
+    "retorno_dia": "Retorno/dia: +4.36%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "ALMU",
-    "entrada_saida": "Entrada: USD 12.17 | Sa\u00edda: USD 12.00",
-    "pnl": "PnL: USD -0.17 (-1.40%)",
-    "retorno_dia": "Retorno/dia: -1.40%",
+    "entrada_saida": "Entrada: USD 12.17 | Sa\u00edda: USD 12.02",
+    "pnl": "PnL: USD -0.15 (-1.19%)",
+    "retorno_dia": "Retorno/dia: -1.19%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
@@ -37,9 +37,9 @@
   },
   {
     "ticker": "ABVE",
-    "entrada_saida": "Entrada: USD 2.13 | Sa\u00edda: USD 2.55",
-    "pnl": "PnL: USD +0.42 (+19.72%)",
-    "retorno_dia": "Retorno/dia: +19.72%",
+    "entrada_saida": "Entrada: USD 2.13 | Sa\u00edda: USD 2.51",
+    "pnl": "PnL: USD +0.38 (+17.84%)",
+    "retorno_dia": "Retorno/dia: +17.84%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -64,9 +64,9 @@
   },
   {
     "ticker": "RGC",
-    "entrada_saida": "Entrada: USD 45.08 | Sa\u00edda: USD 74.00",
-    "pnl": "PnL: USD +28.92 (+64.15%)",
-    "retorno_dia": "Retorno/dia: +64.15%",
+    "entrada_saida": "Entrada: USD 45.08 | Sa\u00edda: USD 74.23",
+    "pnl": "PnL: USD +29.15 (+64.66%)",
+    "retorno_dia": "Retorno/dia: +64.66%",
     "data": "30/04/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
