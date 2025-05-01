@@ -1,21 +1,12 @@
 [
     {
-        "ticker": "META",
-        "entrada_saida": "Entrada: USD 575.22",
-        "pnl": "PnL: USD 0.20 (+0.20%)",
-        "retorno_dia": "Retorno/dia: +0.20%",
-        "data": "01/05/2025 (1 dias úteis)",
-        "status": "aberto",
-        "cor": "verde_claro"
-    },
-    {
         "ticker": "FNGR",
         "entrada_saida": "Entrada: USD 2.92",
-        "pnl": "PnL: USD 0.67 (+0.67%)",
-        "retorno_dia": "Retorno/dia: +0.67%",
+        "pnl": "PnL: USD -1.70 (-1.70%)",
+        "retorno_dia": "Retorno/dia: -1.70%",
         "data": "01/05/2025 (1 dias úteis)",
         "status": "aberto",
-        "cor": "verde_claro"
+        "cor": "vermelho_claro"
     },
     {
         "ticker": "NTCL",
@@ -38,8 +29,8 @@
     {
         "ticker": "PLX",
         "entrada_saida": "Entrada: USD 3.09",
-        "pnl": "PnL: USD -0.81 (-0.81%)",
-        "retorno_dia": "Retorno/dia: -0.81%",
+        "pnl": "PnL: USD -2.11 (-2.11%)",
+        "retorno_dia": "Retorno/dia: -2.11%",
         "data": "30/04/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
@@ -47,8 +38,8 @@
     {
         "ticker": "PLTR",
         "entrada_saida": "Entrada: USD 118.53",
-        "pnl": "PnL: USD 1.01 (+1.01%)",
-        "retorno_dia": "Retorno/dia: +1.01%",
+        "pnl": "PnL: USD 1.14 (+1.14%)",
+        "retorno_dia": "Retorno/dia: +1.14%",
         "data": "30/04/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "verde_claro"
