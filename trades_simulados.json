@@ -10,36 +10,36 @@
   },
   {
     "ticker": "TRVG",
-    "entrada_saida": "Entrada: USD 5.05 | Sa\u00edda: USD 5.35",
-    "pnl": "PnL: USD +0.30 (+5.94%)",
-    "retorno_dia": "Retorno/dia: +5.94%",
+    "entrada_saida": "Entrada: USD 5.05 | Sa\u00edda: USD 5.34",
+    "pnl": "PnL: USD +0.29 (+5.74%)",
+    "retorno_dia": "Retorno/dia: +5.74%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "ALMU",
-    "entrada_saida": "Entrada: USD 12.17 | Sa\u00edda: USD 11.90",
-    "pnl": "PnL: USD -0.27 (-2.22%)",
-    "retorno_dia": "Retorno/dia: -2.22%",
+    "entrada_saida": "Entrada: USD 12.17 | Sa\u00edda: USD 11.99",
+    "pnl": "PnL: USD -0.18 (-1.48%)",
+    "retorno_dia": "Retorno/dia: -1.48%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
   },
   {
     "ticker": "DOMH",
-    "entrada_saida": "Entrada: USD 5.00 | Sa\u00edda: USD 5.15",
-    "pnl": "PnL: USD +0.15 (+3.00%)",
-    "retorno_dia": "Retorno/dia: +3.00%",
+    "entrada_saida": "Entrada: USD 5.00 | Sa\u00edda: USD 5.06",
+    "pnl": "PnL: USD +0.06 (+1.27%)",
+    "retorno_dia": "Retorno/dia: +1.27%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "ABVE",
-    "entrada_saida": "Entrada: USD 2.13 | Sa\u00edda: USD 2.14",
-    "pnl": "PnL: USD +0.01 (+0.47%)",
-    "retorno_dia": "Retorno/dia: +0.47%",
+    "entrada_saida": "Entrada: USD 2.13 | Sa\u00edda: USD 2.36",
+    "pnl": "PnL: USD +0.23 (+10.97%)",
+    "retorno_dia": "Retorno/dia: +10.97%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -55,9 +55,9 @@
   },
   {
     "ticker": "RGC",
-    "entrada_saida": "Entrada: USD 45.08 | Sa\u00edda: USD 72.50",
-    "pnl": "PnL: USD +27.42 (+60.83%)",
-    "retorno_dia": "Retorno/dia: +60.83%",
+    "entrada_saida": "Entrada: USD 45.08 | Sa\u00edda: USD 74.87",
+    "pnl": "PnL: USD +29.79 (+66.08%)",
+    "retorno_dia": "Retorno/dia: +66.08%",
     "data": "30/04/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
