@@ -10,18 +10,18 @@
   },
   {
     "ticker": "TRVG",
-    "entrada_saida": "Entrada: USD 5.05 | Sa\u00edda: USD 5.30",
-    "pnl": "PnL: USD +0.25 (+4.95%)",
-    "retorno_dia": "Retorno/dia: +4.95%",
+    "entrada_saida": "Entrada: USD 5.05 | Sa\u00edda: USD 5.36",
+    "pnl": "PnL: USD +0.31 (+6.04%)",
+    "retorno_dia": "Retorno/dia: +6.04%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "ALMU",
-    "entrada_saida": "Entrada: USD 12.17 | Sa\u00edda: USD 12.08",
-    "pnl": "PnL: USD -0.09 (-0.75%)",
-    "retorno_dia": "Retorno/dia: -0.75%",
+    "entrada_saida": "Entrada: USD 12.17 | Sa\u00edda: USD 12.00",
+    "pnl": "PnL: USD -0.17 (-1.40%)",
+    "retorno_dia": "Retorno/dia: -1.40%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
@@ -37,18 +37,18 @@
   },
   {
     "ticker": "ABVE",
-    "entrada_saida": "Entrada: USD 2.13 | Sa\u00edda: USD 2.56",
-    "pnl": "PnL: USD +0.43 (+20.19%)",
-    "retorno_dia": "Retorno/dia: +20.19%",
+    "entrada_saida": "Entrada: USD 2.13 | Sa\u00edda: USD 2.55",
+    "pnl": "PnL: USD +0.42 (+19.72%)",
+    "retorno_dia": "Retorno/dia: +19.72%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "TSHA",
-    "entrada_saida": "Entrada: USD 2.37 | Sa\u00edda: USD 2.41",
-    "pnl": "PnL: USD +0.04 (+1.90%)",
-    "retorno_dia": "Retorno/dia: +1.90%",
+    "entrada_saida": "Entrada: USD 2.37 | Sa\u00edda: USD 2.40",
+    "pnl": "PnL: USD +0.03 (+1.48%)",
+    "retorno_dia": "Retorno/dia: +1.48%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -64,9 +64,9 @@
   },
   {
     "ticker": "RGC",
-    "entrada_saida": "Entrada: USD 45.08 | Sa\u00edda: USD 74.41",
-    "pnl": "PnL: USD +29.33 (+65.06%)",
-    "retorno_dia": "Retorno/dia: +65.06%",
+    "entrada_saida": "Entrada: USD 45.08 | Sa\u00edda: USD 74.00",
+    "pnl": "PnL: USD +28.92 (+64.15%)",
+    "retorno_dia": "Retorno/dia: +64.15%",
     "data": "30/04/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
