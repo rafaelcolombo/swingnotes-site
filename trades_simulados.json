@@ -1,30 +1,30 @@
 [
   {
     "ticker": "FNGR",
-    "entrada_saida": "Entrada: USD 2.92 | Sa\u00edda: USD 2.59",
-    "pnl": "PnL: USD -0.33 (-11.30%)",
-    "retorno_dia": "Retorno/dia: -11.30%",
+    "entrada_saida": "Entrada: USD 2.92 | Sa\u00edda: USD 2.60",
+    "pnl": "PnL: USD -0.32 (-10.96%)",
+    "retorno_dia": "Retorno/dia: -10.96%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
   },
   {
     "ticker": "TRVG",
-    "entrada_saida": "Entrada: USD 5.05 | Sa\u00edda: USD 5.53",
-    "pnl": "PnL: USD +0.48 (+9.47%)",
-    "retorno_dia": "Retorno/dia: +9.47%",
+    "entrada_saida": "Entrada: USD 5.05 | Sa\u00edda: USD 5.60",
+    "pnl": "PnL: USD +0.55 (+10.89%)",
+    "retorno_dia": "Retorno/dia: +10.89%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "ALMU",
-    "entrada_saida": "Entrada: USD 12.17 | Sa\u00edda: USD 12.05",
-    "pnl": "PnL: USD -0.12 (-1.03%)",
-    "retorno_dia": "Retorno/dia: -1.03%",
+    "entrada_saida": "Entrada: USD 12.17 | Sa\u00edda: USD 12.21",
+    "pnl": "PnL: USD +0.04 (+0.33%)",
+    "retorno_dia": "Retorno/dia: +0.33%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
-    "cor": "vermelho_claro"
+    "cor": "verde_claro"
   },
   {
     "ticker": "NTCL",
@@ -37,9 +37,9 @@
   },
   {
     "ticker": "RGC",
-    "entrada_saida": "Entrada: USD 45.08 | Sa\u00edda: USD 65.00",
-    "pnl": "PnL: USD +19.92 (+44.19%)",
-    "retorno_dia": "Retorno/dia: +44.19%",
+    "entrada_saida": "Entrada: USD 45.08 | Sa\u00edda: USD 64.07",
+    "pnl": "PnL: USD +18.99 (+42.13%)",
+    "retorno_dia": "Retorno/dia: +42.13%",
     "data": "30/04/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -55,9 +55,9 @@
   },
   {
     "ticker": "PLTR",
-    "entrada_saida": "Entrada: USD 118.53 | Sa\u00edda: USD 118.75",
-    "pnl": "PnL: USD +0.22 (+0.19%)",
-    "retorno_dia": "Retorno/dia: +0.19%",
+    "entrada_saida": "Entrada: USD 118.53 | Sa\u00edda: USD 119.28",
+    "pnl": "PnL: USD +0.75 (+0.63%)",
+    "retorno_dia": "Retorno/dia: +0.63%",
     "data": "30/04/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
