@@ -10,9 +10,9 @@
   },
   {
     "ticker": "TRVG",
-    "entrada_saida": "Entrada: USD 5.05 | Sa\u00edda: USD 5.46",
-    "pnl": "PnL: USD +0.41 (+8.12%)",
-    "retorno_dia": "Retorno/dia: +8.12%",
+    "entrada_saida": "Entrada: USD 5.05 | Sa\u00edda: USD 5.54",
+    "pnl": "PnL: USD +0.49 (+9.67%)",
+    "retorno_dia": "Retorno/dia: +9.67%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -28,9 +28,9 @@
   },
   {
     "ticker": "RGC",
-    "entrada_saida": "Entrada: USD 45.08 | Sa\u00edda: USD 63.20",
-    "pnl": "PnL: USD +18.12 (+40.20%)",
-    "retorno_dia": "Retorno/dia: +40.20%",
+    "entrada_saida": "Entrada: USD 45.08 | Sa\u00edda: USD 63.97",
+    "pnl": "PnL: USD +18.89 (+41.90%)",
+    "retorno_dia": "Retorno/dia: +41.90%",
     "data": "30/04/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -46,9 +46,9 @@
   },
   {
     "ticker": "PLTR",
-    "entrada_saida": "Entrada: USD 118.53 | Sa\u00edda: USD 119.45",
-    "pnl": "PnL: USD +0.92 (+0.78%)",
-    "retorno_dia": "Retorno/dia: +0.78%",
+    "entrada_saida": "Entrada: USD 118.53 | Sa\u00edda: USD 118.97",
+    "pnl": "PnL: USD +0.44 (+0.37%)",
+    "retorno_dia": "Retorno/dia: +0.37%",
     "data": "30/04/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
