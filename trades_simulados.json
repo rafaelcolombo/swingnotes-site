@@ -2,17 +2,17 @@
   {
     "ticker": "FNGR",
     "entrada_saida": "Entrada: USD 2.92 | Sa\u00edda: USD 2.62",
-    "pnl": "PnL: USD -0.30 (-10.45%)",
-    "retorno_dia": "Retorno/dia: -10.45%",
+    "pnl": "PnL: USD -0.30 (-10.11%)",
+    "retorno_dia": "Retorno/dia: -10.11%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
   },
   {
     "ticker": "TRVG",
-    "entrada_saida": "Entrada: USD 5.05 | Sa\u00edda: USD 5.38",
-    "pnl": "PnL: USD +0.33 (+6.53%)",
-    "retorno_dia": "Retorno/dia: +6.53%",
+    "entrada_saida": "Entrada: USD 5.05 | Sa\u00edda: USD 5.51",
+    "pnl": "PnL: USD +0.46 (+9.11%)",
+    "retorno_dia": "Retorno/dia: +9.11%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
