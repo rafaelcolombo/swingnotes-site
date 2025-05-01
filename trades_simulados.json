@@ -11,8 +11,8 @@
   {
     "ticker": "TRVG",
     "entrada_saida": "Entrada: USD 5.05 | Sa\u00edda: USD 5.47",
-    "pnl": "PnL: USD +0.42 (+8.32%)",
-    "retorno_dia": "Retorno/dia: +8.32%",
+    "pnl": "PnL: USD +0.42 (+8.31%)",
+    "retorno_dia": "Retorno/dia: +8.31%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -20,8 +20,8 @@
   {
     "ticker": "ALMU",
     "entrada_saida": "Entrada: USD 12.17 | Sa\u00edda: USD 12.00",
-    "pnl": "PnL: USD -0.17 (-1.41%)",
-    "retorno_dia": "Retorno/dia: -1.41%",
+    "pnl": "PnL: USD -0.17 (-1.40%)",
+    "retorno_dia": "Retorno/dia: -1.40%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
