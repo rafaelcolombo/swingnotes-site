@@ -10,30 +10,30 @@
   },
   {
     "ticker": "TRVG",
-    "entrada_saida": "Entrada: USD 5.05 | Sa\u00edda: USD 5.49",
-    "pnl": "PnL: USD +0.44 (+8.71%)",
-    "retorno_dia": "Retorno/dia: +8.71%",
+    "entrada_saida": "Entrada: USD 5.05 | Sa\u00edda: USD 5.40",
+    "pnl": "PnL: USD +0.35 (+6.93%)",
+    "retorno_dia": "Retorno/dia: +6.93%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "ALMU",
-    "entrada_saida": "Entrada: USD 12.17 | Sa\u00edda: USD 11.97",
-    "pnl": "PnL: USD -0.20 (-1.64%)",
-    "retorno_dia": "Retorno/dia: -1.64%",
+    "entrada_saida": "Entrada: USD 12.17 | Sa\u00edda: USD 11.90",
+    "pnl": "PnL: USD -0.27 (-2.22%)",
+    "retorno_dia": "Retorno/dia: -2.22%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
   },
   {
     "ticker": "DOMH",
-    "entrada_saida": "Entrada: USD 5.00 | Sa\u00edda: USD 5.00",
-    "pnl": "PnL: USD +0.00 (+0.00%)",
-    "retorno_dia": "Retorno/dia: +0.00%",
+    "entrada_saida": "Entrada: USD 5.00 | Sa\u00edda: USD 5.04",
+    "pnl": "PnL: USD +0.04 (+0.80%)",
+    "retorno_dia": "Retorno/dia: +0.80%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
-    "cor": "azul"
+    "cor": "verde_claro"
   },
   {
     "ticker": "NTCL",
