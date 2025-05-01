@@ -1,27 +1,27 @@
 [
   {
     "ticker": "FNGR",
-    "entrada_saida": "Entrada: USD 2.92 | Sa\u00edda: USD 2.64",
-    "pnl": "PnL: USD -0.28 (-9.42%)",
-    "retorno_dia": "Retorno/dia: -9.42%",
+    "entrada_saida": "Entrada: USD 2.92 | Sa\u00edda: USD 2.65",
+    "pnl": "PnL: USD -0.27 (-9.25%)",
+    "retorno_dia": "Retorno/dia: -9.25%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
   },
   {
     "ticker": "TRVG",
-    "entrada_saida": "Entrada: USD 5.05 | Sa\u00edda: USD 5.36",
-    "pnl": "PnL: USD +0.31 (+6.08%)",
-    "retorno_dia": "Retorno/dia: +6.08%",
+    "entrada_saida": "Entrada: USD 5.05 | Sa\u00edda: USD 5.33",
+    "pnl": "PnL: USD +0.28 (+5.54%)",
+    "retorno_dia": "Retorno/dia: +5.54%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "ALMU",
-    "entrada_saida": "Entrada: USD 12.17 | Sa\u00edda: USD 12.07",
-    "pnl": "PnL: USD -0.10 (-0.78%)",
-    "retorno_dia": "Retorno/dia: -0.78%",
+    "entrada_saida": "Entrada: USD 12.17 | Sa\u00edda: USD 12.08",
+    "pnl": "PnL: USD -0.09 (-0.74%)",
+    "retorno_dia": "Retorno/dia: -0.74%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
