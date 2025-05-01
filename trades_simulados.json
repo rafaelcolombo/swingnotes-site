@@ -10,9 +10,9 @@
   },
   {
     "ticker": "TRVG",
-    "entrada_saida": "Entrada: USD 5.05 | Sa\u00edda: USD 5.38",
-    "pnl": "PnL: USD +0.33 (+6.53%)",
-    "retorno_dia": "Retorno/dia: +6.53%",
+    "entrada_saida": "Entrada: USD 5.05 | Sa\u00edda: USD 5.34",
+    "pnl": "PnL: USD +0.29 (+5.64%)",
+    "retorno_dia": "Retorno/dia: +5.64%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -28,9 +28,9 @@
   },
   {
     "ticker": "DOMH",
-    "entrada_saida": "Entrada: USD 5.00 | Sa\u00edda: USD 5.04",
-    "pnl": "PnL: USD +0.04 (+0.80%)",
-    "retorno_dia": "Retorno/dia: +0.80%",
+    "entrada_saida": "Entrada: USD 5.00 | Sa\u00edda: USD 5.19",
+    "pnl": "PnL: USD +0.19 (+3.71%)",
+    "retorno_dia": "Retorno/dia: +3.71%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
