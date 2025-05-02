@@ -1,20 +1,20 @@
 {
   "Conta": {
     "Total": 1000,
-    "Alocado": 0,
-    "SaldoDisponivel": 991.67
+    "Alocado": 100.0,
+    "SaldoDisponivel": 891.67
   },
   "Fechados": {
     "PnLTotal": -8.33,
     "PnLPercent": -1.67
   },
   "Abertos": {
-    "PnLEstimado": 0,
-    "PnLEstimadoPercent": 0
+    "PnLEstimado": 0.03,
+    "PnLEstimadoPercent": 0.03
   },
   "PosicaoGeral": {
-    "PnLCombinado": -8.33,
-    "PnLCombinadoPercent": -1.67
+    "PnLCombinado": -8.3,
+    "PnLCombinadoPercent": -1.38
   },
   "PosicaoMensal": [
     {
@@ -27,7 +27,7 @@
   "SharpeRatio": -0.14,
   "Expectancy": -1.67,
   "MetricasPorTrade": {
-    "MediaPnL": -1.67,
+    "MediaPnL": -1.39,
     "RetornoConta": -0.83,
     "WinRate": 60.0,
     "MaiorLucro": {
@@ -40,7 +40,7 @@
     }
   },
   "Resumo": {
-    "TotalTrades": 5,
+    "TotalTrades": 6,
     "DataPrimeiroTrade": "08/04/2025",
     "DiasUteis": 18
   }
