@@ -1,9 +1,9 @@
 [
   {
     "ticker": "CPS",
-    "entrada_saida": "Entrada: USD 20.33 | Sa\u00edda: USD 22.08",
-    "pnl": "PnL: USD +1.75 (+8.61%)",
-    "retorno_dia": "Retorno/dia: +8.61%",
+    "entrada_saida": "Entrada: USD 20.33 | Sa\u00edda: USD 22.12",
+    "pnl": "PnL: USD +1.79 (+8.80%)",
+    "retorno_dia": "Retorno/dia: +8.80%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -19,30 +19,30 @@
   },
   {
     "ticker": "ORGO",
-    "entrada_saida": "Entrada: USD 5.45 | Sa\u00edda: USD 5.24",
-    "pnl": "PnL: USD -0.21 (-3.94%)",
-    "retorno_dia": "Retorno/dia: -3.94%",
+    "entrada_saida": "Entrada: USD 5.45 | Sa\u00edda: USD 5.23",
+    "pnl": "PnL: USD -0.22 (-4.04%)",
+    "retorno_dia": "Retorno/dia: -4.04%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
   },
   {
     "ticker": "FULC",
-    "entrada_saida": "Entrada: USD 5.45 | Sa\u00edda: USD 5.64",
-    "pnl": "PnL: USD +0.19 (+3.49%)",
-    "retorno_dia": "Retorno/dia: +3.49%",
+    "entrada_saida": "Entrada: USD 5.45 | Sa\u00edda: USD 5.59",
+    "pnl": "PnL: USD +0.14 (+2.57%)",
+    "retorno_dia": "Retorno/dia: +2.57%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "BNTC",
-    "entrada_saida": "Entrada: USD 15.30 | Sa\u00edda: USD 15.31",
-    "pnl": "PnL: USD +0.01 (+0.07%)",
-    "retorno_dia": "Retorno/dia: +0.07%",
+    "entrada_saida": "Entrada: USD 15.30 | Sa\u00edda: USD 15.26",
+    "pnl": "PnL: USD -0.04 (-0.26%)",
+    "retorno_dia": "Retorno/dia: -0.26%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
-    "cor": "verde_claro"
+    "cor": "vermelho_claro"
   },
   {
     "ticker": "NGENF",
