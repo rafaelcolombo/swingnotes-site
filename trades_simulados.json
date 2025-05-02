@@ -2,8 +2,8 @@
     {
         "ticker": "CPS",
         "entrada_saida": "Entrada: USD 20.33",
-        "pnl": "PnL: USD 7.14 (+7.14%)",
-        "retorno_dia": "Retorno/dia: +7.14%",
+        "pnl": "PnL: USD 7.01 (+7.01%)",
+        "retorno_dia": "Retorno/dia: +7.01%",
         "data": "02/05/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "verde_claro"
@@ -19,18 +19,18 @@
     },
     {
         "ticker": "ORGO",
-        "entrada_saida": "Entrada: USD 5.45",
-        "pnl": "PnL: USD -3.31 (-3.31%)",
-        "retorno_dia": "Retorno/dia: -3.31%",
+        "entrada_saida": "Entrada: USD 5.45 | Saída: USD 5.28",
+        "pnl": "PnL: USD -3.12 (-3.12%)",
+        "retorno_dia": "Retorno/dia: -3.12%",
         "data": "02/05/2025 (1 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "FULC",
         "entrada_saida": "Entrada: USD 5.45",
-        "pnl": "PnL: USD 6.24 (+6.24%)",
-        "retorno_dia": "Retorno/dia: +6.24%",
+        "pnl": "PnL: USD 6.61 (+6.61%)",
+        "retorno_dia": "Retorno/dia: +6.61%",
         "data": "02/05/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "verde_claro"
@@ -56,8 +56,8 @@
     {
         "ticker": "NAGE",
         "entrada_saida": "Entrada: USD 8.27",
-        "pnl": "PnL: USD 0.30 (+0.30%)",
-        "retorno_dia": "Retorno/dia: +0.30%",
+        "pnl": "PnL: USD 0.79 (+0.79%)",
+        "retorno_dia": "Retorno/dia: +0.79%",
         "data": "02/05/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "verde_claro"
