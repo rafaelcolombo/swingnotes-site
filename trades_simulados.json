@@ -29,8 +29,8 @@
     {
         "ticker": "FULC",
         "entrada_saida": "Entrada: USD 5.45",
-        "pnl": "PnL: USD 5.14 (+5.14%)",
-        "retorno_dia": "Retorno/dia: +5.14%",
+        "pnl": "PnL: USD 6.24 (+6.24%)",
+        "retorno_dia": "Retorno/dia: +6.24%",
         "data": "02/05/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "verde_claro"
@@ -56,8 +56,17 @@
     {
         "ticker": "NAGE",
         "entrada_saida": "Entrada: USD 8.27",
-        "pnl": "PnL: USD -0.15 (-0.15%)",
-        "retorno_dia": "Retorno/dia: -0.15%",
+        "pnl": "PnL: USD 0.30 (+0.30%)",
+        "retorno_dia": "Retorno/dia: +0.30%",
+        "data": "02/05/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "verde_claro"
+    },
+    {
+        "ticker": "OPRX",
+        "entrada_saida": "Entrada: USD 10.27",
+        "pnl": "PnL: USD -0.00 (-0.00%)",
+        "retorno_dia": "Retorno/dia: -0.00%",
         "data": "02/05/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
@@ -83,8 +92,8 @@
     {
         "ticker": "DOMH",
         "entrada_saida": "Entrada: USD 5.00",
-        "pnl": "PnL: USD 10.20 (+10.20%)",
-        "retorno_dia": "Retorno/dia: +10.20%",
+        "pnl": "PnL: USD 11.40 (+11.40%)",
+        "retorno_dia": "Retorno/dia: +11.40%",
         "data": "01/05/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "verde_claro"
