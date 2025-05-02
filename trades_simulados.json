@@ -36,6 +36,15 @@
         "cor": "vermelho_claro"
     },
     {
+        "ticker": "BNTC",
+        "entrada_saida": "Entrada: USD 15.30",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "02/05/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
         "ticker": "FNGR",
         "entrada_saida": "Entrada: USD 2.92 | Saída: USD 2.61",
         "pnl": "PnL: USD -10.65 (-10.65%)",
@@ -56,8 +65,8 @@
     {
         "ticker": "DOMH",
         "entrada_saida": "Entrada: USD 5.00",
-        "pnl": "PnL: USD 9.50 (+9.50%)",
-        "retorno_dia": "Retorno/dia: +9.50%",
+        "pnl": "PnL: USD 9.40 (+9.40%)",
+        "retorno_dia": "Retorno/dia: +9.40%",
         "data": "01/05/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "verde_claro"
