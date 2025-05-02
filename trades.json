@@ -1,18 +1,18 @@
 [
   {
     "ticker": "SATL",
-    "entrada_saida": "Entrada: USD 4.45 | Sa\u00edda: USD 4.80",
-    "pnl": "PnL: USD +0.35 (+7.87%)",
-    "retorno_dia": "Retorno/dia: +7.87%",
+    "entrada_saida": "Entrada: USD 4.45 | Sa\u00edda: USD 4.77",
+    "pnl": "PnL: USD +0.32 (+7.19%)",
+    "retorno_dia": "Retorno/dia: +7.19%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "DUOL",
-    "entrada_saida": "Entrada: USD 479.54 | Sa\u00edda: USD 477.86",
-    "pnl": "PnL: USD -1.68 (-0.35%)",
-    "retorno_dia": "Retorno/dia: -0.35%",
+    "entrada_saida": "Entrada: USD 479.54 | Sa\u00edda: USD 474.91",
+    "pnl": "PnL: USD -4.63 (-0.97%)",
+    "retorno_dia": "Retorno/dia: -0.97%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
