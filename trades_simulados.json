@@ -1,36 +1,36 @@
 [
   {
     "ticker": "CPS",
-    "entrada_saida": "Entrada: USD 20.33 | Sa\u00edda: USD 22.08",
-    "pnl": "PnL: USD +1.75 (+8.61%)",
-    "retorno_dia": "Retorno/dia: +8.61%",
+    "entrada_saida": "Entrada: USD 20.33 | Sa\u00edda: USD 22.04",
+    "pnl": "PnL: USD +1.71 (+8.41%)",
+    "retorno_dia": "Retorno/dia: +8.41%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "KDLY",
-    "entrada_saida": "Entrada: USD 2.08 | Sa\u00edda: USD 2.16",
-    "pnl": "PnL: USD +0.08 (+3.85%)",
-    "retorno_dia": "Retorno/dia: +3.85%",
+    "entrada_saida": "Entrada: USD 2.08 | Sa\u00edda: USD 2.17",
+    "pnl": "PnL: USD +0.09 (+4.30%)",
+    "retorno_dia": "Retorno/dia: +4.30%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "ORGO",
-    "entrada_saida": "Entrada: USD 5.45 | Sa\u00edda: USD 5.20",
-    "pnl": "PnL: USD -0.25 (-4.50%)",
-    "retorno_dia": "Retorno/dia: -4.50%",
+    "entrada_saida": "Entrada: USD 5.45 | Sa\u00edda: USD 5.21",
+    "pnl": "PnL: USD -0.24 (-4.40%)",
+    "retorno_dia": "Retorno/dia: -4.40%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
   },
   {
     "ticker": "FULC",
-    "entrada_saida": "Entrada: USD 5.45 | Sa\u00edda: USD 6.02",
-    "pnl": "PnL: USD +0.57 (+10.51%)",
-    "retorno_dia": "Retorno/dia: +10.51%",
+    "entrada_saida": "Entrada: USD 5.45 | Sa\u00edda: USD 6.01",
+    "pnl": "PnL: USD +0.56 (+10.37%)",
+    "retorno_dia": "Retorno/dia: +10.37%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
