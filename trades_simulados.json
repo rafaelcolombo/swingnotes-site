@@ -1,9 +1,9 @@
 [
   {
     "ticker": "CPS",
-    "entrada_saida": "Entrada: USD 20.33 | Sa\u00edda: USD 20.96",
-    "pnl": "PnL: USD +0.63 (+3.11%)",
-    "retorno_dia": "Retorno/dia: +3.11%",
+    "entrada_saida": "Entrada: USD 20.33 | Sa\u00edda: USD 21.29",
+    "pnl": "PnL: USD +0.96 (+4.72%)",
+    "retorno_dia": "Retorno/dia: +4.72%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -28,9 +28,9 @@
   },
   {
     "ticker": "DOMH",
-    "entrada_saida": "Entrada: USD 5.00 | Sa\u00edda: USD 5.33",
-    "pnl": "PnL: USD +0.33 (+6.60%)",
-    "retorno_dia": "Retorno/dia: +6.60%",
+    "entrada_saida": "Entrada: USD 5.00 | Sa\u00edda: USD 5.34",
+    "pnl": "PnL: USD +0.34 (+6.80%)",
+    "retorno_dia": "Retorno/dia: +6.80%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
