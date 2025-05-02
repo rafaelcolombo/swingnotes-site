@@ -1,36 +1,36 @@
 [
   {
     "ticker": "CPS",
-    "entrada_saida": "Entrada: USD 20.33 | Sa\u00edda: USD 21.95",
-    "pnl": "PnL: USD +1.62 (+7.99%)",
-    "retorno_dia": "Retorno/dia: +7.99%",
+    "entrada_saida": "Entrada: USD 20.33 | Sa\u00edda: USD 21.87",
+    "pnl": "PnL: USD +1.54 (+7.58%)",
+    "retorno_dia": "Retorno/dia: +7.58%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "KDLY",
-    "entrada_saida": "Entrada: USD 2.08 | Sa\u00edda: USD 2.19",
-    "pnl": "PnL: USD +0.11 (+5.29%)",
-    "retorno_dia": "Retorno/dia: +5.29%",
+    "entrada_saida": "Entrada: USD 2.08 | Sa\u00edda: USD 2.16",
+    "pnl": "PnL: USD +0.08 (+3.85%)",
+    "retorno_dia": "Retorno/dia: +3.85%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "ORGO",
-    "entrada_saida": "Entrada: USD 5.45 | Sa\u00edda: USD 5.22",
-    "pnl": "PnL: USD -0.23 (-4.22%)",
-    "retorno_dia": "Retorno/dia: -4.22%",
+    "entrada_saida": "Entrada: USD 5.45 | Sa\u00edda: USD 5.21",
+    "pnl": "PnL: USD -0.24 (-4.40%)",
+    "retorno_dia": "Retorno/dia: -4.40%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
   },
   {
     "ticker": "FULC",
-    "entrada_saida": "Entrada: USD 5.45 | Sa\u00edda: USD 5.89",
-    "pnl": "PnL: USD +0.44 (+8.07%)",
-    "retorno_dia": "Retorno/dia: +8.07%",
+    "entrada_saida": "Entrada: USD 5.45 | Sa\u00edda: USD 5.87",
+    "pnl": "PnL: USD +0.42 (+7.71%)",
+    "retorno_dia": "Retorno/dia: +7.71%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -73,9 +73,9 @@
   },
   {
     "ticker": "DOMH",
-    "entrada_saida": "Entrada: USD 5.00 | Sa\u00edda: USD 5.55",
-    "pnl": "PnL: USD +0.55 (+11.00%)",
-    "retorno_dia": "Retorno/dia: +11.00%",
+    "entrada_saida": "Entrada: USD 5.00 | Sa\u00edda: USD 5.54",
+    "pnl": "PnL: USD +0.54 (+10.80%)",
+    "retorno_dia": "Retorno/dia: +10.80%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
