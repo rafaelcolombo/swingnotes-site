@@ -1,18 +1,18 @@
 [
   {
     "ticker": "CPS",
-    "entrada_saida": "Entrada: USD 20.33 | Sa\u00edda: USD 21.76",
-    "pnl": "PnL: USD +1.43 (+7.03%)",
-    "retorno_dia": "Retorno/dia: +7.03%",
+    "entrada_saida": "Entrada: USD 20.33 | Sa\u00edda: USD 21.98",
+    "pnl": "PnL: USD +1.65 (+8.09%)",
+    "retorno_dia": "Retorno/dia: +8.09%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "KDLY",
-    "entrada_saida": "Entrada: USD 2.08 | Sa\u00edda: USD 2.24",
-    "pnl": "PnL: USD +0.16 (+7.67%)",
-    "retorno_dia": "Retorno/dia: +7.67%",
+    "entrada_saida": "Entrada: USD 2.08 | Sa\u00edda: USD 2.23",
+    "pnl": "PnL: USD +0.15 (+7.21%)",
+    "retorno_dia": "Retorno/dia: +7.21%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -28,18 +28,18 @@
   },
   {
     "ticker": "FULC",
-    "entrada_saida": "Entrada: USD 5.45 | Sa\u00edda: USD 5.78",
-    "pnl": "PnL: USD +0.33 (+5.96%)",
-    "retorno_dia": "Retorno/dia: +5.96%",
+    "entrada_saida": "Entrada: USD 5.45 | Sa\u00edda: USD 5.61",
+    "pnl": "PnL: USD +0.16 (+2.94%)",
+    "retorno_dia": "Retorno/dia: +2.94%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "BNTC",
-    "entrada_saida": "Entrada: USD 15.30 | Sa\u00edda: USD 15.23",
-    "pnl": "PnL: USD -0.07 (-0.46%)",
-    "retorno_dia": "Retorno/dia: -0.46%",
+    "entrada_saida": "Entrada: USD 15.30 | Sa\u00edda: USD 15.24",
+    "pnl": "PnL: USD -0.06 (-0.39%)",
+    "retorno_dia": "Retorno/dia: -0.39%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
@@ -55,18 +55,18 @@
   },
   {
     "ticker": "NAGE",
-    "entrada_saida": "Entrada: USD 8.27 | Sa\u00edda: USD 8.26",
-    "pnl": "PnL: USD -0.01 (-0.12%)",
-    "retorno_dia": "Retorno/dia: -0.12%",
+    "entrada_saida": "Entrada: USD 8.27 | Sa\u00edda: USD 8.24",
+    "pnl": "PnL: USD -0.03 (-0.30%)",
+    "retorno_dia": "Retorno/dia: -0.30%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
   },
   {
     "ticker": "OPRX",
-    "entrada_saida": "Entrada: USD 10.27 | Sa\u00edda: USD 10.23",
-    "pnl": "PnL: USD -0.04 (-0.39%)",
-    "retorno_dia": "Retorno/dia: -0.39%",
+    "entrada_saida": "Entrada: USD 10.27 | Sa\u00edda: USD 10.18",
+    "pnl": "PnL: USD -0.09 (-0.88%)",
+    "retorno_dia": "Retorno/dia: -0.88%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
@@ -91,9 +91,9 @@
   },
   {
     "ticker": "DOMH",
-    "entrada_saida": "Entrada: USD 5.00 | Sa\u00edda: USD 5.52",
-    "pnl": "PnL: USD +0.52 (+10.40%)",
-    "retorno_dia": "Retorno/dia: +10.40%",
+    "entrada_saida": "Entrada: USD 5.00 | Sa\u00edda: USD 5.64",
+    "pnl": "PnL: USD +0.64 (+12.80%)",
+    "retorno_dia": "Retorno/dia: +12.80%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
