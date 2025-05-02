@@ -2,8 +2,8 @@
     {
         "ticker": "CPS",
         "entrada_saida": "Entrada: USD 20.33",
-        "pnl": "PnL: USD 6.49 (+6.49%)",
-        "retorno_dia": "Retorno/dia: +6.49%",
+        "pnl": "PnL: USD 6.88 (+6.88%)",
+        "retorno_dia": "Retorno/dia: +6.88%",
         "data": "02/05/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "verde_claro"
@@ -16,6 +16,15 @@
         "data": "02/05/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
+    },
+    {
+        "ticker": "ORGO",
+        "entrada_saida": "Entrada: USD 5.45",
+        "pnl": "PnL: USD 0.18 (+0.18%)",
+        "retorno_dia": "Retorno/dia: +0.18%",
+        "data": "02/05/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "verde_claro"
     },
     {
         "ticker": "FNGR",
