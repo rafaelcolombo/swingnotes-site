@@ -19,9 +19,9 @@
   },
   {
     "ticker": "DOMH",
-    "entrada_saida": "Entrada: USD 5.00 | Sa\u00edda: USD 5.34",
-    "pnl": "PnL: USD +0.34 (+6.80%)",
-    "retorno_dia": "Retorno/dia: +6.80%",
+    "entrada_saida": "Entrada: USD 5.00 | Sa\u00edda: USD 5.30",
+    "pnl": "PnL: USD +0.30 (+6.00%)",
+    "retorno_dia": "Retorno/dia: +6.00%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -37,9 +37,9 @@
   },
   {
     "ticker": "TSHA",
-    "entrada_saida": "Entrada: USD 2.37 | Sa\u00edda: USD 2.62",
-    "pnl": "PnL: USD +0.25 (+10.76%)",
-    "retorno_dia": "Retorno/dia: +10.76%",
+    "entrada_saida": "Entrada: USD 2.37 | Sa\u00edda: USD 2.63",
+    "pnl": "PnL: USD +0.26 (+10.97%)",
+    "retorno_dia": "Retorno/dia: +10.97%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
