@@ -1,9 +1,9 @@
 [
   {
     "ticker": "CPS",
-    "entrada_saida": "Entrada: USD 20.33 | Sa\u00edda: USD 21.24",
-    "pnl": "PnL: USD +0.91 (+4.48%)",
-    "retorno_dia": "Retorno/dia: +4.48%",
+    "entrada_saida": "Entrada: USD 20.33 | Sa\u00edda: USD 21.22",
+    "pnl": "PnL: USD +0.89 (+4.38%)",
+    "retorno_dia": "Retorno/dia: +4.38%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -28,9 +28,9 @@
   },
   {
     "ticker": "DOMH",
-    "entrada_saida": "Entrada: USD 5.00 | Sa\u00edda: USD 5.56",
-    "pnl": "PnL: USD +0.56 (+11.20%)",
-    "retorno_dia": "Retorno/dia: +11.20%",
+    "entrada_saida": "Entrada: USD 5.00 | Sa\u00edda: USD 5.50",
+    "pnl": "PnL: USD +0.50 (+10.00%)",
+    "retorno_dia": "Retorno/dia: +10.00%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -64,9 +64,9 @@
   },
   {
     "ticker": "RGC",
-    "entrada_saida": "Entrada: USD 45.08 | Sa\u00edda: USD 68.45",
-    "pnl": "PnL: USD +23.37 (+51.84%)",
-    "retorno_dia": "Retorno/dia: +23.22%",
+    "entrada_saida": "Entrada: USD 45.08 | Sa\u00edda: USD 68.68",
+    "pnl": "PnL: USD +23.60 (+52.34%)",
+    "retorno_dia": "Retorno/dia: +23.43%",
     "data": "30/04/2025 (2 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
