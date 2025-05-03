@@ -55,7 +55,7 @@
       font-style: italic;
       font-size: 0.85rem;
       text-align: center;
-      margin-top: 20px;
+      margin-top: 10px;
       color: #999;
     }
   </style>
@@ -68,6 +68,7 @@
   <div class="linha"></div> <!-- Linha 2: Posição Geral, Benchmark -->
   <div class="linha"></div> <!-- Linha 3: Drawdown, Sharpe, Expectancy -->
   <div class="linha"></div> <!-- Linha 4: Métricas por Trade -->
+  <div class="linha observacao"></div> <!-- Linha 5: Última atualização -->
 
   <script>
     fetch('report.json')
@@ -132,6 +133,12 @@
             `<em>* ${data.Resumo.TotalTrades} trades desde ${data.Resumo.DataPrimeiroTrade} (${data.Resumo.DiasUteis} dias úteis)</em>`
           ])
         );
+
+        // Adicionar última atualização abaixo da linha 4
+        const ultimaAtualizacao = document.createElement('p');
+        ultimaAtualizacao.className = 'observacao';
+        ultimaAtualizacao.textContent = `⏰ Última atualização: ${document.lastModified}`;
+        linha[4].appendChild(ultimaAtualizacao);
       })
       .catch(err => {
         console.error("Erro ao carregar report.json:", err);
