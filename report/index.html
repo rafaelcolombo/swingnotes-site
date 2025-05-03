@@ -65,7 +65,7 @@
   <h2>📊 RELATÓRIO DE PERFORMANCE</h2>
 
   <div class="linha"></div> <!-- Linha 1: Conta, Fechados, Abertos -->
-  <div class="linha"></div> <!-- Linha 2: Posição Geral, Mês Corrente, Mês Anterior -->
+  <div class="linha"></div> <!-- Linha 2: Posição Geral, Benchmark -->
   <div class="linha"></div> <!-- Linha 3: Drawdown, Sharpe, Expectancy -->
   <div class="linha"></div> <!-- Linha 4: Métricas por Trade -->
 
@@ -86,7 +86,7 @@
         linha[0].append(
           bloco('💰 CONTA', [
             `Total: <strong>US$ ${format(data.Conta.Total)}</strong>`,
-            `Alocado: <strong>US$ ${format(data.Conta.Alocado)} (${(data.Conta.Alocado / data.Conta.Total * 100).toFixed(2)}%)</strong>`,
+            `Alocado: <strong>US$ ${format(data.Conta.Alocado)} (${(data.Conta.Alocado / (data.Conta.Total + data.Fechados.PnLTotal) * 100).toFixed(2)}%)</strong>`,
             `Saldo Disponível: <strong>US$ ${format(data.Conta.SaldoDisponivel)}</strong>`
           ]),
           bloco('✅ FECHADOS', [
@@ -99,21 +99,13 @@
           ])
         );
 
-        const posicoes = data.PosicaoMensal;
         linha[1].append(
           bloco('📈 POSIÇÃO GERAL', [
             `PnL Combinado: <strong style="color:${data.PosicaoGeral.PnLCombinado >= 0 ? '#50c878' : '#ff6f61'}">${format(data.PosicaoGeral.PnLCombinado)} USD</strong>`,
             `PnL Combinado %: <strong>${format(data.PosicaoGeral.PnLCombinadoPercent)}%</strong>`
           ]),
-          bloco('📅 POSIÇÃO MÊS CORRENTE', [
-            posicoes.length > 0 ?
-              `${posicoes[posicoes.length - 1].Mes}: <strong>${format(posicoes[posicoes.length - 1].PnL)} USD (${format(posicoes[posicoes.length - 1].PnLPercent)}%)</strong>`
-            : `<strong>—</strong>`
-          ]),
-          bloco('📅 POSIÇÃO MÊS ANTERIOR', [
-            posicoes.length > 1 ?
-              `${posicoes[posicoes.length - 2].Mes}: <strong>${format(posicoes[posicoes.length - 2].PnL)} USD (${format(posicoes[posicoes.length - 2].PnLPercent)}%)</strong>`
-            : `<strong>—</strong>`
+          bloco('📊 BENCHMARK S&P500', [
+            `Desde primeiro trade: <strong style="color:${data.BenchmarkSP500 >= 0 ? '#50c878' : '#ff6f61'}">${format(data.BenchmarkSP500)}%</strong>`
           ])
         );
 
