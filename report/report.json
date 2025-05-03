@@ -16,13 +16,7 @@
     "PnLCombinado": -0.8,
     "PnLCombinadoPercent": -0.11
   },
-  "PosicaoMensal": [
-    {
-      "Mes": "04/2025",
-      "PnL": -8.33,
-      "PnLPercent": -1.67
-    }
-  ],
+  "BenchmarkSP500": 14.13,
   "MaxDrawdown": -0.56,
   "SharpeRatio": -0.14,
   "Expectancy": -1.67,
