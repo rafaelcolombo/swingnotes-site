@@ -83,6 +83,7 @@
       .then(res => res.json())
       .then(data => {
         const format = (val) => (val > 0 ? '+' : '') + val.toFixed(2);
+        const formatNoSign = (val) => val.toFixed(2);
         const bloco = (titulo, linhas) => {
           const div = document.createElement('div');
           div.className = 'bloco';
@@ -94,9 +95,9 @@
 
         linha[0].append(
           bloco('💰 CONTA', [
-            `Total: <strong>US$ ${formatNoSign(data.Conta.Total)}</strong>`,
-            `Alocado: <strong>US$ ${formatNoSign(data.Conta.Alocado)} (${(data.Conta.Alocado / (data.Conta.Total + data.Fechados.PnLTotal) * 100).toFixed(2)}%)</strong>`,
-            `Saldo Disponível: <strong>US$ ${formatNoSign(data.Conta.SaldoDisponivel)}</strong>`
+            `Total: <strong>${formatNoSign(data.Conta.Total)} USD</strong>`,
+            `Alocado: <strong>${formatNoSign(data.Conta.Alocado)} USD (${(data.Conta.Alocado / (data.Conta.Total + data.Fechados.PnLTotal) * 100).toFixed(2)}%)</strong>`,
+            `Saldo Disponível: <strong>${formatNoSign(data.Conta.SaldoDisponivel)} USD</strong>`
           ]),
           bloco('✅ FECHADOS', [
             `PnL Total: <strong style="color:${data.Fechados.PnLTotal >= 0 ? '#50c878' : '#ff6f61'}">${format(data.Fechados.PnLTotal)} USD</strong>`,
