@@ -96,7 +96,8 @@
           ]),
           bloco('🚀 ABERTOS', [
             `PnL Estimado: <strong style="color:${data.Abertos.PnLEstimado >= 0 ? '#50c878' : '#ff6f61'}">${format(data.Abertos.PnLEstimado)} USD</strong>`,
-            `PnL Estimado %: <strong style="color:${data.Abertos.PnLEstimadoPercent >= 0 ? '#50c878' : '#ff6f61'}">${format(data.Abertos.PnLEstimadoPercent)}%</strong>`
+            `PnL Estimado %: <strong style="color:${data.Abertos.PnLEstimadoPercent >= 0 ? '#50c878' : '#ff6f61'}">${format(data.Abertos.PnLEstimadoPercent)}%</strong>`,
+            `<em>* Os valores são baseados na última cotação dos ativos.</em>`
           ])
         );
 
