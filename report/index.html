@@ -95,15 +95,15 @@
             `PnL %: <strong style="color:${data.Fechados.PnLPercent >= 0 ? '#50c878' : '#ff6f61'}">${format(data.Fechados.PnLPercent)}%</strong>`
           ]),
           bloco('🚀 ABERTOS', [
-            `PnL Estimado: <strong>${format(data.Abertos.PnLEstimado)} USD</strong>`,
-            `PnL Estimado %: <strong>${format(data.Abertos.PnLEstimadoPercent)}%</strong>`
+            `PnL Estimado: <strong style="color:${data.Abertos.PnLEstimado >= 0 ? '#50c878' : '#ff6f61'}">${format(data.Abertos.PnLEstimado)} USD</strong>`,
+            `PnL Estimado %: <strong style="color:${data.Abertos.PnLEstimadoPercent >= 0 ? '#50c878' : '#ff6f61'}">${format(data.Abertos.PnLEstimadoPercent)}%</strong>`
           ])
         );
 
         linha[1].append(
           bloco('📈 POSIÇÃO GERAL', [
             `PnL Combinado: <strong style="color:${data.PosicaoGeral.PnLCombinado >= 0 ? '#50c878' : '#ff6f61'}">${format(data.PosicaoGeral.PnLCombinado)} USD</strong>`,
-            `PnL Combinado %: <strong>${format(data.PosicaoGeral.PnLCombinadoPercent)}%</strong>`
+            `PnL Combinado %: <strong style="color:${data.PosicaoGeral.PnLCombinadoPercent >= 0 ? '#50c878' : '#ff6f61'}">${format(data.PosicaoGeral.PnLCombinadoPercent)}%</strong>`
           ]),
           bloco('📊 BENCHMARK S&P500', [
             `Desde primeiro trade: <strong style="color:${data.BenchmarkSP500 >= 0 ? '#50c878' : '#ff6f61'}">${format(data.BenchmarkSP500)}%</strong>`
@@ -112,21 +112,21 @@
 
         linha[2].append(
           bloco('🔻 MAXIMUM DRAWDOWN', [
-            `Maior queda: <strong style="color:#ff6f61;">${format(data.MaxDrawdown)}%</strong>`
+            `Maior queda: <strong style="color:${data.MaxDrawdown >= 0 ? '#50c878' : '#ff6f61'}">${format(data.MaxDrawdown)}%</strong>`
           ]),
           bloco('📈 SHARPE RATIO', [
-            `Retorno/Risco: <strong>${format(data.SharpeRatio)}</strong>`
+            `Retorno/Risco: <strong style="color:${data.SharpeRatio >= 0 ? '#50c878' : '#ff6f61'}">${format(data.SharpeRatio)}</strong>`
           ]),
           bloco('🧮 EXPECTANCY', [
-            `Esperado por trade: <strong>${format(data.Expectancy)} USD</strong>`
+            `Esperado por trade: <strong style="color:${data.Expectancy >= 0 ? '#50c878' : '#ff6f61'}">${format(data.Expectancy)} USD</strong>`
           ])
         );
 
         const m = data.MetricasPorTrade;
         linha[3].append(
           bloco('📎 MÉTRICAS POR TRADE', [
-            `Média PnL: <strong>${format(m.MediaPnL)} USD</strong>`,
-            `Retorno sobre Conta: <strong>${format(m.RetornoConta)}%</strong>`,
+            `Média PnL: <strong style="color:${m.MediaPnL >= 0 ? '#50c878' : '#ff6f61'}">${format(m.MediaPnL)} USD</strong>`,
+            `Retorno sobre Conta: <strong style="color:${m.RetornoConta >= 0 ? '#50c878' : '#ff6f61'}">${format(m.RetornoConta)}%</strong>`,
             `Win Rate: <strong style="color:#50c878;">${format(m.WinRate)}%</strong>`,
             `Maior Lucro: <strong style="color:#50c878;">${format(m.MaiorLucro.Valor)} USD (${format(m.MaiorLucro.Percent)}%)</strong>`,
             `Maior Prejuízo: <strong style="color:#ff6f61;">${format(m.MaiorPrejuizo.Valor)} USD (${format(m.MaiorPrejuizo.Percent)}%)</strong>`,
@@ -134,7 +134,7 @@
           ])
         );
 
-        // Adicionar última atualização abaixo da linha 4
+        // Última atualização abaixo da linha 4
         const ultimaAtualizacao = document.createElement('p');
         ultimaAtualizacao.className = 'observacao';
         ultimaAtualizacao.textContent = `⏰ Última atualização: ${document.lastModified}`;
