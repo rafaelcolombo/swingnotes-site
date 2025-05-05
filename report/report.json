@@ -9,14 +9,14 @@
     "PnLPercent": -1.67
   },
   "Abertos": {
-    "PnLEstimado": 7.53,
-    "PnLEstimadoPercent": 3.76
+    "PnLEstimado": 8.81,
+    "PnLEstimadoPercent": 4.4
   },
   "PosicaoGeral": {
-    "PnLCombinado": -0.8,
-    "PnLCombinadoPercent": -0.11
+    "PnLCombinado": 0.48,
+    "PnLCombinadoPercent": 0.07
   },
-  "BenchmarkSP500": 14.13,
+  "BenchmarkSP500": 13.23,
   "MaxDrawdown": -0.56,
   "SharpeRatio": -0.14,
   "Expectancy": -1.67,
