@@ -1,9 +1,9 @@
 [
   {
     "ticker": "BCRX",
-    "entrada_saida": "Entrada: USD 10.10 | Sa\u00edda: USD 10.48",
-    "pnl": "PnL: USD +0.38 (+3.81%)",
-    "retorno_dia": "Retorno/dia: +3.81%",
+    "entrada_saida": "Entrada: USD 10.10 | Sa\u00edda: USD 10.49",
+    "pnl": "PnL: USD +0.39 (+3.86%)",
+    "retorno_dia": "Retorno/dia: +3.86%",
     "data": "05/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -46,9 +46,9 @@
   },
   {
     "ticker": "FULC",
-    "entrada_saida": "Entrada: USD 5.45 | Sa\u00edda: USD 5.50",
-    "pnl": "PnL: USD +0.05 (+0.92%)",
-    "retorno_dia": "Retorno/dia: +0.92%",
+    "entrada_saida": "Entrada: USD 5.45 | Sa\u00edda: USD 5.54",
+    "pnl": "PnL: USD +0.09 (+1.65%)",
+    "retorno_dia": "Retorno/dia: +1.65%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
