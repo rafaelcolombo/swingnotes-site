@@ -1,18 +1,18 @@
 [
   {
     "ticker": "BCRX",
-    "entrada_saida": "Entrada: USD 10.10 | Sa\u00edda: USD 10.31",
-    "pnl": "PnL: USD +0.21 (+2.13%)",
-    "retorno_dia": "Retorno/dia: +2.13%",
+    "entrada_saida": "Entrada: USD 10.10 | Sa\u00edda: USD 10.48",
+    "pnl": "PnL: USD +0.38 (+3.81%)",
+    "retorno_dia": "Retorno/dia: +3.81%",
     "data": "05/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "CPS",
-    "entrada_saida": "Entrada: USD 23.16 | Sa\u00edda: USD 23.59",
-    "pnl": "PnL: USD +0.43 (+1.86%)",
-    "retorno_dia": "Retorno/dia: +1.86%",
+    "entrada_saida": "Entrada: USD 23.16 | Sa\u00edda: USD 23.58",
+    "pnl": "PnL: USD +0.42 (+1.79%)",
+    "retorno_dia": "Retorno/dia: +1.79%",
     "data": "05/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -28,9 +28,9 @@
   },
   {
     "ticker": "KDLY",
-    "entrada_saida": "Entrada: USD 2.08 | Sa\u00edda: USD 2.70",
-    "pnl": "PnL: USD +0.62 (+29.81%)",
-    "retorno_dia": "Retorno/dia: +29.81%",
+    "entrada_saida": "Entrada: USD 2.08 | Sa\u00edda: USD 2.74",
+    "pnl": "PnL: USD +0.66 (+31.57%)",
+    "retorno_dia": "Retorno/dia: +31.57%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
