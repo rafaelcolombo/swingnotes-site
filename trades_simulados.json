@@ -1,18 +1,18 @@
 [
   {
     "ticker": "CPS",
-    "entrada_saida": "Entrada: USD 20.33 | Sa\u00edda: USD 21.93",
-    "pnl": "PnL: USD +1.60 (+7.89%)",
-    "retorno_dia": "Retorno/dia: +7.89%",
+    "entrada_saida": "Entrada: USD 20.33 | Sa\u00edda: USD 21.74",
+    "pnl": "PnL: USD +1.41 (+6.91%)",
+    "retorno_dia": "Retorno/dia: +6.91%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "KDLY",
-    "entrada_saida": "Entrada: USD 2.08 | Sa\u00edda: USD 2.24",
-    "pnl": "PnL: USD +0.16 (+7.69%)",
-    "retorno_dia": "Retorno/dia: +7.69%",
+    "entrada_saida": "Entrada: USD 2.08 | Sa\u00edda: USD 2.35",
+    "pnl": "PnL: USD +0.27 (+12.98%)",
+    "retorno_dia": "Retorno/dia: +12.98%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -28,12 +28,12 @@
   },
   {
     "ticker": "FULC",
-    "entrada_saida": "Entrada: USD 5.45 | Sa\u00edda: USD 5.64",
-    "pnl": "PnL: USD +0.19 (+3.58%)",
-    "retorno_dia": "Retorno/dia: +3.58%",
+    "entrada_saida": "Entrada: USD 5.45 | Sa\u00edda: USD 5.18",
+    "pnl": "PnL: USD -0.27 (-4.86%)",
+    "retorno_dia": "Retorno/dia: -4.86%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
-    "cor": "verde_claro"
+    "cor": "vermelho_claro"
   },
   {
     "ticker": "BNTC",
@@ -64,9 +64,9 @@
   },
   {
     "ticker": "OPRX",
-    "entrada_saida": "Entrada: USD 10.27 | Sa\u00edda: USD 10.08",
-    "pnl": "PnL: USD -0.19 (-1.85%)",
-    "retorno_dia": "Retorno/dia: -1.85%",
+    "entrada_saida": "Entrada: USD 10.27 | Sa\u00edda: USD 10.04",
+    "pnl": "PnL: USD -0.23 (-2.24%)",
+    "retorno_dia": "Retorno/dia: -2.24%",
     "data": "02/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
@@ -91,9 +91,9 @@
   },
   {
     "ticker": "DOMH",
-    "entrada_saida": "Entrada: USD 5.00 | Sa\u00edda: USD 5.66",
-    "pnl": "PnL: USD +0.66 (+13.20%)",
-    "retorno_dia": "Retorno/dia: +13.20%",
+    "entrada_saida": "Entrada: USD 5.00 | Sa\u00edda: USD 5.52",
+    "pnl": "PnL: USD +0.52 (+10.50%)",
+    "retorno_dia": "Retorno/dia: +10.50%",
     "data": "01/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
