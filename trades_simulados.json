@@ -11,8 +11,8 @@
     {
         "ticker": "CPS",
         "entrada_saida": "Entrada: USD 23.16",
-        "pnl": "PnL: USD 0.35 (+0.35%)",
-        "retorno_dia": "Retorno/dia: +0.35%",
+        "pnl": "PnL: USD 0.30 (+0.30%)",
+        "retorno_dia": "Retorno/dia: +0.30%",
         "data": "05/05/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "verde_claro"
@@ -20,8 +20,17 @@
     {
         "ticker": "ASM",
         "entrada_saida": "Entrada: USD 2.40",
-        "pnl": "PnL: USD -0.33 (-0.33%)",
-        "retorno_dia": "Retorno/dia: -0.33%",
+        "pnl": "PnL: USD 0.08 (+0.08%)",
+        "retorno_dia": "Retorno/dia: +0.08%",
+        "data": "05/05/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "verde_claro"
+    },
+    {
+        "ticker": "MTEN",
+        "entrada_saida": "Entrada: USD 8.96",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
         "data": "05/05/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
@@ -56,8 +65,8 @@
     {
         "ticker": "FULC",
         "entrada_saida": "Entrada: USD 5.45",
-        "pnl": "PnL: USD 1.83 (+1.83%)",
-        "retorno_dia": "Retorno/dia: +1.83%",
+        "pnl": "PnL: USD 2.02 (+2.02%)",
+        "retorno_dia": "Retorno/dia: +2.02%",
         "data": "02/05/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "verde_claro"
