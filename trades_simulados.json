@@ -29,8 +29,8 @@
     {
         "ticker": "FULC",
         "entrada_saida": "Entrada: USD 5.45",
-        "pnl": "PnL: USD 2.20 (+2.20%)",
-        "retorno_dia": "Retorno/dia: +2.20%",
+        "pnl": "PnL: USD 2.02 (+2.02%)",
+        "retorno_dia": "Retorno/dia: +2.02%",
         "data": "02/05/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "verde_claro"
@@ -91,12 +91,12 @@
     },
     {
         "ticker": "DOMH",
-        "entrada_saida": "Entrada: USD 5.00",
+        "entrada_saida": "Entrada: USD 5.00 | Saída: USD 5.29",
         "pnl": "PnL: USD 5.80 (+5.80%)",
         "retorno_dia": "Retorno/dia: +2.86%",
         "data": "01/05/2025 (2 dias úteis)",
-        "status": "aberto",
-        "cor": "verde_claro"
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "ABVE",
