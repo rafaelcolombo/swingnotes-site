@@ -37,7 +37,8 @@
       box-shadow: 0 0 5px rgba(0,0,0,0.3);
       flex: 1;
       min-width: 250px;
-      max-width: 300px;
+      max-width: 600px;  /* aumentei só para a meta ter espaço maior */
+      text-align: center;
     }
 
     .bloco h3 {
@@ -64,14 +65,14 @@
      display: block;
      margin-top: 5px;
      color: #999;
-}
-
+    }
   </style>
 </head>
 <body>
 
   <h2>📊 RELATÓRIO DE PERFORMANCE</h2>
 
+  <div class="linha"></div> <!-- NOVA Linha 0: META -->
   <div class="linha"></div> <!-- Linha 1: Conta, Fechados, Abertos -->
   <div class="linha"></div> <!-- Linha 2: Posição Geral, Benchmark -->
   <div class="linha"></div> <!-- Linha 3: Drawdown, Sharpe, Expectancy -->
@@ -93,7 +94,21 @@
 
         const linha = document.querySelectorAll('.linha');
 
+        // NOVA LINHA 0: META
         linha[0].append(
+          bloco('🎯 META ABRIL/2026', [
+            `Objetivo: <strong>${formatNoSign(data.Meta.Objetivo)} USD</strong>`,
+            `Valor Atual: <strong style="color:${data.Meta.ValorAtual >= data.Meta.Objetivo ? '#50c878' : '#f0c14b'}">${formatNoSign(data.Meta.ValorAtual)} USD</strong>`,
+            `Faltante: <strong style="color:${data.Meta.Faltante <= 0 ? '#50c878' : '#ff6f61'}">${formatNoSign(data.Meta.Faltante)} USD</strong>`,
+            `Atingido: <strong>${formatNoSign(data.Meta.PercentualAtingido)}%</strong>`,
+            `Meta Mensal: <strong>${formatNoSign(data.Meta.ValorMedioMensalNecessario)} USD/mês</strong>`,
+            `Meta Diária (útil): <strong>${formatNoSign(data.Meta.ValorMedioDiarioNecessario)} USD/dia útil</strong>`,
+            `<em>${data.Meta.MesesRestantes} meses e ${data.Meta.DiasUteisRestantes} dias úteis restantes até abril/2026.</em>`
+          ])
+        );
+
+        // Linha 1: Conta, Fechados, Abertos
+        linha[1].append(
           bloco('💰 CONTA', [
             `Total: <strong>${formatNoSign(data.Conta.Total)} USD</strong>`,
             `Alocado: <strong>${formatNoSign(data.Conta.Alocado)} USD (${(data.Conta.Alocado / (data.Conta.Total + data.Fechados.PnLTotal) * 100).toFixed(2)}%)</strong>`,
@@ -110,7 +125,8 @@
           ])
         );
 
-        linha[1].append(
+        // Linha 2: Posição Geral, Benchmark
+        linha[2].append(
           bloco('📈 POSIÇÃO GERAL', [
             `PnL Combinado: <strong style="color:${data.PosicaoGeral.PnLCombinado >= 0 ? '#50c878' : '#ff6f61'}">${format(data.PosicaoGeral.PnLCombinado)} USD</strong>`,
             `PnL Combinado %: <strong style="color:${data.PosicaoGeral.PnLCombinadoPercent >= 0 ? '#50c878' : '#ff6f61'}">${format(data.PosicaoGeral.PnLCombinadoPercent)}%</strong>`
@@ -120,7 +136,8 @@
           ])
         );
 
-        linha[2].append(
+        // Linha 3: Drawdown, Sharpe, Expectancy
+        linha[3].append(
           bloco('🔻 MAXIMUM DRAWDOWN', [
             `Maior queda: <strong style="color:${data.MaxDrawdown >= 0 ? '#50c878' : '#ff6f61'}">${format(data.MaxDrawdown)}%</strong>`
           ]),
@@ -133,7 +150,7 @@
         );
 
         const m = data.MetricasPorTrade;
-        linha[3].append(
+        linha[4].append(
           bloco('📎 MÉTRICAS POR TRADE', [
             `Média PnL: <strong style="color:${m.MediaPnL >= 0 ? '#50c878' : '#ff6f61'}">${format(m.MediaPnL)} USD</strong>`,
             `Retorno sobre Conta: <strong style="color:${m.RetornoConta >= 0 ? '#50c878' : '#ff6f61'}">${format(m.RetornoConta)}%</strong>`,
@@ -144,11 +161,11 @@
           ])
         );
 
-        // Última atualização abaixo da linha 4
+        // Última atualização
         const ultimaAtualizacao = document.createElement('p');
         ultimaAtualizacao.className = 'observacao';
         ultimaAtualizacao.textContent = `⏰ Última atualização: ${document.lastModified}`;
-        linha[4].appendChild(ultimaAtualizacao);
+        linha[5].appendChild(ultimaAtualizacao);
       })
       .catch(err => {
         console.error("Erro ao carregar report.json:", err);
