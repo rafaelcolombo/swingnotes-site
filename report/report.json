@@ -37,5 +37,15 @@
     "TotalTrades": 7,
     "DataPrimeiroTrade": "08/04/2025",
     "DiasUteis": 19
+  },
+  "Meta": {
+    "Objetivo": 10000,
+    "ValorAtual": 995.13,
+    "Faltante": 9004.87,
+    "PercentualAtingido": 9.95,
+    "MesesRestantes": 11,
+    "ValorMedioMensalNecessario": 818.62,
+    "DiasUteisRestantes": 231,
+    "ValorMedioDiarioNecessario": 38.98
   }
 }
