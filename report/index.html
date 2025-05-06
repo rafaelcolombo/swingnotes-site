@@ -37,7 +37,7 @@
       box-shadow: 0 0 5px rgba(0,0,0,0.3);
       flex: 1;
       min-width: 250px;
-      max-width: 600px;  /* aumentei só para a meta ter espaço maior */
+      max-width: 600px;  /* meta com largura maior */
       text-align: center;
     }
 
@@ -94,20 +94,19 @@
 
         const linha = document.querySelectorAll('.linha');
 
-        // NOVA LINHA 0: META
+        // LINHA 0: META
         linha[0].append(
           bloco('🎯 META ABRIL/2026', [
             `Objetivo: <strong>${formatNoSign(data.Meta.Objetivo)} USD</strong>`,
             `Valor Atual: <strong style="color:${data.Meta.ValorAtual >= data.Meta.Objetivo ? '#50c878' : '#f0c14b'}">${formatNoSign(data.Meta.ValorAtual)} USD</strong>`,
             `Faltante: <strong style="color:${data.Meta.Faltante <= 0 ? '#50c878' : '#ff6f61'}">${formatNoSign(data.Meta.Faltante)} USD</strong>`,
             `Atingido: <strong>${formatNoSign(data.Meta.PercentualAtingido)}%</strong>`,
-            `Meta Mensal: <strong>${formatNoSign(data.Meta.ValorMedioMensalNecessario)} USD/mês</strong>`,
             `Meta Diária (útil): <strong>${formatNoSign(data.Meta.ValorMedioDiarioNecessario)} USD/dia útil</strong>`,
             `<em>${data.Meta.DiasUteisRestantes} dias úteis restantes até 30/04/2026.</em>`
           ])
         );
 
-        // Linha 1: Conta, Fechados, Abertos
+        // LINHA 1: Conta, Fechados, Abertos
         linha[1].append(
           bloco('💰 CONTA', [
             `Total: <strong>${formatNoSign(data.Conta.Total)} USD</strong>`,
@@ -125,7 +124,7 @@
           ])
         );
 
-        // Linha 2: Posição Geral, Benchmark
+        // LINHA 2: Posição Geral, Benchmark
         linha[2].append(
           bloco('📈 POSIÇÃO GERAL', [
             `PnL Combinado: <strong style="color:${data.PosicaoGeral.PnLCombinado >= 0 ? '#50c878' : '#ff6f61'}">${format(data.PosicaoGeral.PnLCombinado)} USD</strong>`,
@@ -136,7 +135,7 @@
           ])
         );
 
-        // Linha 3: Drawdown, Sharpe, Expectancy
+        // LINHA 3: Drawdown, Sharpe, Expectancy
         linha[3].append(
           bloco('🔻 MAXIMUM DRAWDOWN', [
             `Maior queda: <strong style="color:${data.MaxDrawdown >= 0 ? '#50c878' : '#ff6f61'}">${format(data.MaxDrawdown)}%</strong>`
@@ -149,6 +148,7 @@
           ])
         );
 
+        // LINHA 4: Métricas por Trade
         const m = data.MetricasPorTrade;
         linha[4].append(
           bloco('📎 MÉTRICAS POR TRADE', [
