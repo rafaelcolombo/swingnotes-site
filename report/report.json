@@ -16,7 +16,7 @@
     "PnLCombinado": -4.87,
     "PnLCombinadoPercent": -0.7
   },
-  "BenchmarkSP500": 13.4,
+  "BenchmarkSP500": 0,
   "MaxDrawdown": -0.56,
   "SharpeRatio": -0.07,
   "Expectancy": -0.7,
