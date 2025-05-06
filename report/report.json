@@ -39,13 +39,13 @@
     "DiasUteis": 19
   },
   "Meta": {
-    "Objetivo": 10000,
-    "ValorAtual": 995.13,
-    "Faltante": 9004.87,
-    "PercentualAtingido": 9.95,
+    "Objetivo": 11000,
+    "ValorAtual": -4.87,
+    "Faltante": 11004.87,
+    "PercentualAtingido": -0.04,
     "MesesRestantes": 11,
-    "ValorMedioMensalNecessario": 818.62,
+    "ValorMedioMensalNecessario": 1000.44,
     "DiasUteisRestantes": 231,
-    "ValorMedioDiarioNecessario": 38.98
+    "ValorMedioDiarioNecessario": 47.64
   }
 }
