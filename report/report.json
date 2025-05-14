@@ -36,14 +36,14 @@
   "Resumo": {
     "TotalTrades": 7,
     "DataPrimeiroTrade": "08/04/2025",
-    "DiasUteis": 25
+    "DiasUteis": 26
   },
   "Meta": {
     "Objetivo": 10000,
     "ValorAtual": -4.87,
     "Faltante": 10004.87,
     "PercentualAtingido": -0.05,
-    "DiasUteisRestantes": 253,
-    "ValorMedioDiarioNecessario": 39.54
+    "DiasUteisRestantes": 252,
+    "ValorMedioDiarioNecessario": 39.7
   }
 }
