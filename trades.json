@@ -18,6 +18,15 @@
         "cor": "vermelho_claro"
     },
     {
+        "ticker": "MPAA",
+        "entrada_saida": "Entrada: USD 10.85",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "15/05/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
         "ticker": "AAPL",
         "entrada_saida": "Entrada: USD 212.33",
         "pnl": "PnL: USD 0.00 (+0.00%)",
