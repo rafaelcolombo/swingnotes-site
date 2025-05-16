@@ -1,5 +1,14 @@
 [
     {
+        "ticker": "NVDA",
+        "entrada_saida": "Entrada: USD 134.83",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "16/05/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
         "ticker": "NPCE",
         "entrada_saida": "Entrada: USD 17.05",
         "pnl": "PnL: USD 0.00 (+0.00%)",
@@ -22,7 +31,7 @@
         "entrada_saida": "Entrada: USD 23.16",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "05/05/2025 (8 dias úteis)",
+        "data": "05/05/2025 (9 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -31,7 +40,7 @@
         "entrada_saida": "Entrada: USD 2.40",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "05/05/2025 (8 dias úteis)",
+        "data": "05/05/2025 (9 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -40,7 +49,7 @@
         "entrada_saida": "Entrada: USD 8.96",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "05/05/2025 (8 dias úteis)",
+        "data": "05/05/2025 (9 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -49,7 +58,7 @@
         "entrada_saida": "Entrada: USD 5.23",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "05/05/2025 (8 dias úteis)",
+        "data": "05/05/2025 (9 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -67,7 +76,7 @@
         "entrada_saida": "Entrada: USD 2.08",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "02/05/2025 (9 dias úteis)",
+        "data": "02/05/2025 (10 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -85,7 +94,7 @@
         "entrada_saida": "Entrada: USD 5.45",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "02/05/2025 (9 dias úteis)",
+        "data": "02/05/2025 (10 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
