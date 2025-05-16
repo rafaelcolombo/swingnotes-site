@@ -2,26 +2,26 @@
     {
         "ticker": "QUBT",
         "entrada_saida": "Entrada: USD 0.09",
-        "pnl": "PnL: USD 1854.01 (+13741.41%)",
-        "retorno_dia": "Retorno/dia: +13741.41%",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
         "data": "16/05/2025 (1 dias úteis)",
         "status": "aberto",
-        "cor": "verde_claro"
+        "cor": "vermelho_claro"
     },
     {
         "ticker": "QUBT",
         "entrada_saida": "Entrada: USD 11.12",
-        "pnl": "PnL: USD 17.98 (+11.98%)",
-        "retorno_dia": "Retorno/dia: +11.98%",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
         "data": "16/05/2025 (1 dias úteis)",
         "status": "aberto",
-        "cor": "verde_claro"
+        "cor": "vermelho_claro"
     },
     {
         "ticker": "ACHR",
         "entrada_saida": "Entrada: USD 13.33",
-        "pnl": "PnL: USD -0.44 (-0.29%)",
-        "retorno_dia": "Retorno/dia: -0.29%",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
         "data": "16/05/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
@@ -29,26 +29,17 @@
     {
         "ticker": "QBTS",
         "entrada_saida": "Entrada: USD 11.99",
-        "pnl": "PnL: USD 0.77 (+0.51%)",
-        "retorno_dia": "Retorno/dia: +0.51%",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
         "data": "16/05/2025 (1 dias úteis)",
         "status": "aberto",
-        "cor": "verde_claro"
+        "cor": "vermelho_claro"
     },
     {
         "ticker": "IBIT",
         "entrada_saida": "Entrada: USD 59.09",
-        "pnl": "PnL: USD 0.20 (+0.34%)",
-        "retorno_dia": "Retorno/dia: +0.34%",
-        "data": "15/05/2025 (1 dias úteis)",
-        "status": "aberto",
-        "cor": "verde_claro"
-    },
-    {
-        "ticker": "MPAA",
-        "entrada_saida": "Entrada: USD 10.85",
-        "pnl": "PnL: USD -0.01 (-0.09%)",
-        "retorno_dia": "Retorno/dia: -0.09%",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
         "data": "15/05/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
@@ -56,8 +47,8 @@
     {
         "ticker": "MPAA",
         "entrada_saida": "Entrada: USD 10.93",
-        "pnl": "PnL: USD -0.09 (-0.82%)",
-        "retorno_dia": "Retorno/dia: -0.41%",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
         "data": "14/05/2025 (2 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
@@ -65,8 +56,8 @@
     {
         "ticker": "MPAA",
         "entrada_saida": "Entrada: USD 10.93",
-        "pnl": "PnL: USD -0.09 (-0.82%)",
-        "retorno_dia": "Retorno/dia: -0.41%",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
         "data": "14/05/2025 (2 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
