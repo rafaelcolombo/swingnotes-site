@@ -18,6 +18,15 @@
         "cor": "vermelho_claro"
     },
     {
+        "ticker": "ACHR",
+        "entrada_saida": "Entrada: USD 13.33",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "16/05/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
         "ticker": "FL",
         "entrada_saida": "Entrada: USD 12.87",
         "pnl": "PnL: USD 0.00 (+0.00%)",
