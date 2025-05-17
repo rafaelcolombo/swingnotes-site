@@ -1,21 +1,12 @@
 [
     {
-        "ticker": "SCHD",
-        "entrada_saida": "Entrada: USD 26.42",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "17/05/2025 (1 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
-    },
-    {
         "ticker": "QUBT",
         "entrada_saida": "Entrada: USD 11.12",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "pnl": "PnL: USD 23.64 (+15.76%)",
+        "retorno_dia": "Retorno/dia: +15.76%",
         "data": "16/05/2025 (1 dias úteis)",
         "status": "aberto",
-        "cor": "vermelho_claro"
+        "cor": "verde_claro"
     },
     {
         "ticker": "ACHR",
