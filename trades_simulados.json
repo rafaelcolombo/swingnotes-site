@@ -1,5 +1,14 @@
 [
     {
+        "ticker": "TSLA",
+        "entrada_saida": "Entrada: USD 349.98",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "18/05/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
         "ticker": "NVDA",
         "entrada_saida": "Entrada: USD 134.83",
         "pnl": "PnL: USD 0.00 (+0.00%)",
