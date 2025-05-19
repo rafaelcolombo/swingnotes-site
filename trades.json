@@ -1,27 +1,27 @@
 [
   {
     "ticker": "QUBT",
-    "entrada_saida": "Entrada: USD 11.12 | Sa\u00edda: USD 12.87",
-    "pnl": "PnL: USD +1.75 (+15.74%)",
-    "retorno_dia": "Retorno/dia: +15.74%",
+    "entrada_saida": "Entrada: USD 11.12 | Sa\u00edda: USD 11.62",
+    "pnl": "PnL: USD +0.50 (+4.50%)",
+    "retorno_dia": "Retorno/dia: +4.50%",
     "data": "16/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "ACHR",
-    "entrada_saida": "Entrada: USD 13.33 | Sa\u00edda: USD 13.30",
-    "pnl": "PnL: USD -0.03 (-0.23%)",
-    "retorno_dia": "Retorno/dia: -0.23%",
+    "entrada_saida": "Entrada: USD 13.33 | Sa\u00edda: USD 12.27",
+    "pnl": "PnL: USD -1.06 (-7.95%)",
+    "retorno_dia": "Retorno/dia: -7.95%",
     "data": "16/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
   },
   {
     "ticker": "QBTS",
-    "entrada_saida": "Entrada: USD 11.99 | Sa\u00edda: USD 12.25",
-    "pnl": "PnL: USD +0.26 (+2.17%)",
-    "retorno_dia": "Retorno/dia: +2.17%",
+    "entrada_saida": "Entrada: USD 11.99 | Sa\u00edda: USD 12.05",
+    "pnl": "PnL: USD +0.06 (+0.50%)",
+    "retorno_dia": "Retorno/dia: +0.50%",
     "data": "16/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
