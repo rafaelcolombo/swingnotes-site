@@ -1,9 +1,9 @@
 [
   {
     "ticker": "NVDA",
-    "entrada_saida": "Entrada: USD 134.83 | Sa\u00edda: USD 132.75",
-    "pnl": "PnL: USD -2.08 (-1.54%)",
-    "retorno_dia": "Retorno/dia: -1.54%",
+    "entrada_saida": "Entrada: USD 134.83 | Sa\u00edda: USD 134.19",
+    "pnl": "PnL: USD -0.64 (-0.47%)",
+    "retorno_dia": "Retorno/dia: -0.47%",
     "data": "16/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
@@ -28,18 +28,18 @@
   },
   {
     "ticker": "CPS",
-    "entrada_saida": "Entrada: USD 23.16 | Sa\u00edda: USD 23.93",
-    "pnl": "PnL: USD +0.77 (+3.32%)",
-    "retorno_dia": "Retorno/dia: +0.33%",
+    "entrada_saida": "Entrada: USD 23.16 | Sa\u00edda: USD 23.59",
+    "pnl": "PnL: USD +0.43 (+1.84%)",
+    "retorno_dia": "Retorno/dia: +0.18%",
     "data": "05/05/2025 (10 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "ASM",
-    "entrada_saida": "Entrada: USD 2.40 | Sa\u00edda: USD 2.67",
-    "pnl": "PnL: USD +0.27 (+11.25%)",
-    "retorno_dia": "Retorno/dia: +1.07%",
+    "entrada_saida": "Entrada: USD 2.40 | Sa\u00edda: USD 2.92",
+    "pnl": "PnL: USD +0.52 (+21.67%)",
+    "retorno_dia": "Retorno/dia: +1.98%",
     "data": "05/05/2025 (10 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
