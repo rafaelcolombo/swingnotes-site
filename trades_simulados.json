@@ -1,12 +1,12 @@
 [
   {
     "ticker": "NVDA",
-    "entrada_saida": "Entrada: USD 134.83 | Sa\u00edda: USD 135.40",
-    "pnl": "PnL: USD +0.57 (+0.42%)",
-    "retorno_dia": "Retorno/dia: +0.42%",
+    "entrada_saida": "Entrada: USD 134.83 | Sa\u00edda: USD 132.75",
+    "pnl": "PnL: USD -2.08 (-1.54%)",
+    "retorno_dia": "Retorno/dia: -1.54%",
     "data": "16/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
-    "cor": "verde_claro"
+    "cor": "vermelho_claro"
   },
   {
     "ticker": "NPCE",
