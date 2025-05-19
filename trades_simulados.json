@@ -1,18 +1,18 @@
 [
   {
     "ticker": "NVDA",
-    "entrada_saida": "Entrada: USD 134.83 | Sa\u00edda: USD 134.19",
-    "pnl": "PnL: USD -0.64 (-0.47%)",
-    "retorno_dia": "Retorno/dia: -0.47%",
+    "entrada_saida": "Entrada: USD 134.83 | Sa\u00edda: USD 134.38",
+    "pnl": "PnL: USD -0.45 (-0.33%)",
+    "retorno_dia": "Retorno/dia: -0.33%",
     "data": "16/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
   },
   {
     "ticker": "NPCE",
-    "entrada_saida": "Entrada: USD 17.05 | Sa\u00edda: USD 17.49",
-    "pnl": "PnL: USD +0.44 (+2.58%)",
-    "retorno_dia": "Retorno/dia: +1.28%",
+    "entrada_saida": "Entrada: USD 17.05 | Sa\u00edda: USD 17.50",
+    "pnl": "PnL: USD +0.45 (+2.64%)",
+    "retorno_dia": "Retorno/dia: +1.31%",
     "data": "15/05/2025 (2 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -37,9 +37,9 @@
   },
   {
     "ticker": "ASM",
-    "entrada_saida": "Entrada: USD 2.40 | Sa\u00edda: USD 2.92",
-    "pnl": "PnL: USD +0.52 (+21.67%)",
-    "retorno_dia": "Retorno/dia: +1.98%",
+    "entrada_saida": "Entrada: USD 2.40 | Sa\u00edda: USD 2.88",
+    "pnl": "PnL: USD +0.48 (+20.00%)",
+    "retorno_dia": "Retorno/dia: +1.84%",
     "data": "05/05/2025 (10 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
@@ -55,9 +55,9 @@
   },
   {
     "ticker": "WYY",
-    "entrada_saida": "Entrada: USD 5.23",
-    "pnl": "PnL: USD 0.00 (+0.00%)",
-    "retorno_dia": "Retorno/dia: +0.00%",
+    "entrada_saida": "Entrada: USD 5.23 | Sa\u00edda: USD 3.52",
+    "pnl": "PnL: USD -1.72 (-32.79%)",
+    "retorno_dia": "Retorno/dia: -3.90%",
     "data": "05/05/2025 (10 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
@@ -91,12 +91,12 @@
   },
   {
     "ticker": "FULC",
-    "entrada_saida": "Entrada: USD 5.45",
-    "pnl": "PnL: USD 0.00 (+0.00%)",
-    "retorno_dia": "Retorno/dia: +0.00%",
+    "entrada_saida": "Entrada: USD 5.45 | Sa\u00edda: USD 6.80",
+    "pnl": "PnL: USD +1.35 (+24.77%)",
+    "retorno_dia": "Retorno/dia: +2.03%",
     "data": "02/05/2025 (11 dias \u00fateis)",
     "status": "aberto",
-    "cor": "vermelho_claro"
+    "cor": "verde_claro"
   },
   {
     "ticker": "BNTC",
