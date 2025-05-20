@@ -28,12 +28,12 @@
     },
     {
         "ticker": "QBTS",
-        "entrada_saida": "Entrada: USD 11.99",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 11.99 | Saída: USD 12.98",
+        "pnl": "PnL: USD 12.41 (+8.27%)",
+        "retorno_dia": "Retorno/dia: +8.27%",
         "data": "16/05/2025 (1 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "SATL",
