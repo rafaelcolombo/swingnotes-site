@@ -28,12 +28,12 @@
     },
     {
         "ticker": "ARQQ",
-        "entrada_saida": "Entrada: USD 21.44",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 21.44 | Saída: USD 28.74",
+        "pnl": "PnL: USD 51.10 (+34.07%)",
+        "retorno_dia": "Retorno/dia: +15.79%",
         "data": "19/05/2025 (2 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "QUBT",
