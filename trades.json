@@ -1,5 +1,23 @@
 [
     {
+        "ticker": "SBSW",
+        "entrada_saida": "Entrada: USD 6.00",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "22/05/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
+        "ticker": "SJT",
+        "entrada_saida": "Entrada: USD 7.03",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "22/05/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
         "ticker": "LAES",
         "entrada_saida": "Entrada: USD 4.18 | Saída: USD 3.54",
         "pnl": "PnL: USD -23.10 (-15.40%)",
