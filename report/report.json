@@ -9,12 +9,12 @@
     "PnLPercent": 0.6
   },
   "Abertos": {
-    "PnLEstimado": -10.68,
-    "PnLEstimadoPercent": -3.56
+    "PnLEstimado": -10.91,
+    "PnLEstimadoPercent": -3.63
   },
   "PosicaoGeral": {
-    "PnLCombinado": -0.1,
-    "PnLCombinadoPercent": -0.0
+    "PnLCombinado": -0.33,
+    "PnLCombinadoPercent": -0.02
   },
   "BenchmarkSP500": 0,
   "MaxDrawdown": -3.7,
@@ -43,7 +43,7 @@
     "ValorAtual": 10.58,
     "Faltante": 9989.42,
     "PercentualAtingido": 0.11,
-    "DiasUteisRestantes": 245,
-    "ValorMedioDiarioNecessario": 40.77
+    "DiasUteisRestantes": 244,
+    "ValorMedioDiarioNecessario": 40.94
   }
 }
