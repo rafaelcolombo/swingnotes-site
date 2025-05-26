@@ -1,18 +1,18 @@
 [
   {
     "ticker": "SBSW",
-    "entrada_saida": "Entrada: USD 6.00 | Sa\u00edda: USD 5.99",
-    "pnl": "PnL: USD -0.01 (-0.17%)",
-    "retorno_dia": "Retorno/dia: -0.17%",
+    "entrada_saida": "Entrada: USD 6.00 | Sa\u00edda: USD 6.14",
+    "pnl": "PnL: USD +0.14 (+2.33%)",
+    "retorno_dia": "Retorno/dia: +2.33%",
     "data": "22/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
-    "cor": "vermelho_claro"
+    "cor": "verde_claro"
   },
   {
     "ticker": "SJT",
-    "entrada_saida": "Entrada: USD 7.03 | Sa\u00edda: USD 7.00",
-    "pnl": "PnL: USD -0.03 (-0.43%)",
-    "retorno_dia": "Retorno/dia: -0.43%",
+    "entrada_saida": "Entrada: USD 7.03 | Sa\u00edda: USD 6.83",
+    "pnl": "PnL: USD -0.20 (-2.84%)",
+    "retorno_dia": "Retorno/dia: -2.84%",
     "data": "22/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
