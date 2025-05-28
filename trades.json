@@ -46,12 +46,12 @@
     },
     {
         "ticker": "QBTS",
-        "entrada_saida": "Entrada: USD 18.71",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 18.71 | Saída: USD 17.43",
+        "pnl": "PnL: USD -6.82 (-6.82%)",
+        "retorno_dia": "Retorno/dia: -2.33%",
         "data": "22/05/2025 (3 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "IONQ",
