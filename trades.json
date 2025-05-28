@@ -19,12 +19,12 @@
     },
     {
         "ticker": "QUBT",
-        "entrada_saida": "Entrada: USD 13.84",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 13.84 | Saída: USD 12.61",
+        "pnl": "PnL: USD -8.87 (-8.87%)",
+        "retorno_dia": "Retorno/dia: -4.54%",
         "data": "23/05/2025 (2 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "SBSW",
