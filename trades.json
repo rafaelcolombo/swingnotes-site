@@ -19,12 +19,12 @@
     },
     {
         "ticker": "SBSW",
-        "entrada_saida": "Entrada: USD 6.00",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 6.00 | Saída: USD 6.10",
+        "pnl": "PnL: USD 2.56 (+1.71%)",
+        "retorno_dia": "Retorno/dia: +0.57%",
         "data": "22/05/2025 (3 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "SJT",
