@@ -1,6 +1,15 @@
 [
     {
         "ticker": "NVDA",
+        "entrada_saida": "Entrada: USD 135.21",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "28/05/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
+        "ticker": "NVDA",
         "entrada_saida": "Entrada: USD 135.22",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
@@ -55,12 +64,12 @@
     },
     {
         "ticker": "CEP",
-        "entrada_saida": "Entrada: USD 48.67",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 48.67 | Saída: USD 40.35",
+        "pnl": "PnL: USD -25.63 (-17.09%)",
+        "retorno_dia": "Retorno/dia: -6.05%",
         "data": "22/05/2025 (3 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "LAES",
