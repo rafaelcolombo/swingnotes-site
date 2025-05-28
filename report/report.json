@@ -1,28 +1,28 @@
 {
   "Conta": {
-    "Total": 1000,
+    "Total": 900,
     "Alocado": 816.49,
-    "SaldoDisponivel": 151.44
+    "SaldoDisponivel": 51.44
   },
   "Fechados": {
     "PnLTotal": -32.07,
     "PnLPercent": -1.28
   },
   "Abertos": {
-    "PnLEstimado": -4.11,
-    "PnLEstimadoPercent": -0.51
+    "PnLEstimado": -1.01,
+    "PnLEstimadoPercent": -0.28
   },
   "PosicaoGeral": {
-    "PnLCombinado": -36.18,
-    "PnLCombinadoPercent": -1.09
+    "PnLCombinado": -33.08,
+    "PnLCombinadoPercent": -1.16
   },
   "BenchmarkSP500": 0,
-  "MaxDrawdown": -7.77,
+  "MaxDrawdown": -8.59,
   "SharpeRatio": -0.1,
   "Expectancy": -1.6,
   "MetricasPorTrade": {
     "MediaPnL": -1.39,
-    "RetornoConta": -3.21,
+    "RetornoConta": -3.56,
     "WinRate": 50.0,
     "MaiorLucro": {
       "Valor": 51.1,
