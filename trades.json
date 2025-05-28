@@ -37,12 +37,12 @@
     },
     {
         "ticker": "SJT",
-        "entrada_saida": "Entrada: USD 7.03",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 7.03 | Saída: USD 6.84",
+        "pnl": "PnL: USD -3.95 (-2.63%)",
+        "retorno_dia": "Retorno/dia: -0.89%",
         "data": "22/05/2025 (3 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "QBTS",
