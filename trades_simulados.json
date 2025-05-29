@@ -1,18 +1,18 @@
 [
   {
     "ticker": "NVDA",
-    "entrada_saida": "Entrada: USD 134.83 | Sa\u00edda: USD 135.50",
-    "pnl": "PnL: USD +0.67 (+0.50%)",
-    "retorno_dia": "Retorno/dia: +0.50%",
+    "entrada_saida": "Entrada: USD 134.83 | Sa\u00edda: USD 134.81",
+    "pnl": "PnL: USD -0.02 (-0.01%)",
+    "retorno_dia": "Retorno/dia: -0.01%",
     "data": "16/05/2025 (1 dias \u00fateis)",
     "status": "aberto",
-    "cor": "verde_claro"
+    "cor": "vermelho_claro"
   },
   {
     "ticker": "NPCE",
-    "entrada_saida": "Entrada: USD 17.05 | Sa\u00edda: USD 12.66",
-    "pnl": "PnL: USD -4.39 (-25.75%)",
-    "retorno_dia": "Retorno/dia: -13.83%",
+    "entrada_saida": "Entrada: USD 17.05 | Sa\u00edda: USD 12.46",
+    "pnl": "PnL: USD -4.59 (-26.92%)",
+    "retorno_dia": "Retorno/dia: -14.51%",
     "data": "15/05/2025 (2 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
@@ -28,36 +28,36 @@
   },
   {
     "ticker": "CPS",
-    "entrada_saida": "Entrada: USD 23.16 | Sa\u00edda: USD 22.28",
-    "pnl": "PnL: USD -0.88 (-3.80%)",
-    "retorno_dia": "Retorno/dia: -0.39%",
+    "entrada_saida": "Entrada: USD 23.16 | Sa\u00edda: USD 23.52",
+    "pnl": "PnL: USD +0.36 (+1.55%)",
+    "retorno_dia": "Retorno/dia: +0.15%",
     "data": "05/05/2025 (10 dias \u00fateis)",
     "status": "aberto",
-    "cor": "vermelho_claro"
+    "cor": "verde_claro"
   },
   {
     "ticker": "ASM",
-    "entrada_saida": "Entrada: USD 2.40 | Sa\u00edda: USD 3.21",
-    "pnl": "PnL: USD +0.81 (+33.75%)",
-    "retorno_dia": "Retorno/dia: +2.95%",
+    "entrada_saida": "Entrada: USD 2.40 | Sa\u00edda: USD 3.15",
+    "pnl": "PnL: USD +0.75 (+31.25%)",
+    "retorno_dia": "Retorno/dia: +2.76%",
     "data": "05/05/2025 (10 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "MTEN",
-    "entrada_saida": "Entrada: USD 8.96 | Sa\u00edda: USD 12.40",
-    "pnl": "PnL: USD +3.44 (+38.39%)",
-    "retorno_dia": "Retorno/dia: +3.30%",
+    "entrada_saida": "Entrada: USD 8.96 | Sa\u00edda: USD 12.30",
+    "pnl": "PnL: USD +3.34 (+37.28%)",
+    "retorno_dia": "Retorno/dia: +3.22%",
     "data": "05/05/2025 (10 dias \u00fateis)",
     "status": "aberto",
     "cor": "verde_claro"
   },
   {
     "ticker": "WYY",
-    "entrada_saida": "Entrada: USD 5.23 | Sa\u00edda: USD 3.04",
-    "pnl": "PnL: USD -2.19 (-41.87%)",
-    "retorno_dia": "Retorno/dia: -5.28%",
+    "entrada_saida": "Entrada: USD 5.23 | Sa\u00edda: USD 3.18",
+    "pnl": "PnL: USD -2.05 (-39.20%)",
+    "retorno_dia": "Retorno/dia: -4.85%",
     "data": "05/05/2025 (10 dias \u00fateis)",
     "status": "aberto",
     "cor": "vermelho_claro"
