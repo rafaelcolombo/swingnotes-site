@@ -1,29 +1,29 @@
 {
   "Conta": {
     "Total": 900,
-    "Alocado": 816.49,
+    "Alocado": 820.16,
     "SaldoDisponivel": 51.44
   },
   "Fechados": {
-    "PnLTotal": -32.07,
-    "PnLPercent": -1.28
+    "PnLTotal": -28.4,
+    "PnLPercent": -1.09
   },
   "Abertos": {
-    "PnLEstimado": -1.01,
-    "PnLEstimadoPercent": -0.28
+    "PnLEstimado": 20.57,
+    "PnLEstimadoPercent": 2.51
   },
   "PosicaoGeral": {
-    "PnLCombinado": -33.08,
-    "PnLCombinadoPercent": -1.16
+    "PnLCombinado": -7.83,
+    "PnLCombinadoPercent": -0.23
   },
   "BenchmarkSP500": 0,
   "MaxDrawdown": -8.59,
-  "SharpeRatio": -0.1,
-  "Expectancy": -1.6,
+  "SharpeRatio": -0.08,
+  "Expectancy": -1.35,
   "MetricasPorTrade": {
-    "MediaPnL": -1.39,
-    "RetornoConta": -3.56,
-    "WinRate": 50.0,
+    "MediaPnL": -1.18,
+    "RetornoConta": -3.16,
+    "WinRate": 52.38,
     "MaiorLucro": {
       "Valor": 51.1,
       "Percent": 34.07
@@ -34,16 +34,16 @@
     }
   },
   "Resumo": {
-    "TotalTrades": 23,
+    "TotalTrades": 24,
     "DataPrimeiroTrade": "08/04/2025",
-    "DiasUteis": 35
+    "DiasUteis": 36
   },
   "Meta": {
     "Objetivo": 10000,
-    "ValorAtual": -32.07,
-    "Faltante": 10032.07,
-    "PercentualAtingido": -0.32,
-    "DiasUteisRestantes": 242,
-    "ValorMedioDiarioNecessario": 41.45
+    "ValorAtual": -28.4,
+    "Faltante": 10028.4,
+    "PercentualAtingido": -0.28,
+    "DiasUteisRestantes": 241,
+    "ValorMedioDiarioNecessario": 41.61
   }
 }
