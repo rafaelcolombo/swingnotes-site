@@ -37,12 +37,12 @@
     },
     {
         "ticker": "MTEN",
-        "entrada_saida": "Entrada: USD 8.96",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 8.96 | Saída: USD 12.27",
+        "pnl": "PnL: USD 36.96 (+36.96%)",
+        "retorno_dia": "Retorno/dia: +1.67%",
         "data": "05/05/2025 (19 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "WYY",
