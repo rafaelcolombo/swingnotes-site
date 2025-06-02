@@ -1,14 +1,5 @@
 [
     {
-        "ticker": "DDC",
-        "entrada_saida": "Entrada: USD 10.67",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "02/06/2025 (1 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
-    },
-    {
         "ticker": "ROMA",
         "entrada_saida": "Entrada: USD 3.36 | Saída: USD 3.36",
         "pnl": "PnL: USD 0.00 (+0.00%)",
