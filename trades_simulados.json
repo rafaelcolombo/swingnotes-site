@@ -1,30 +1,21 @@
 [
     {
-        "ticker": "RGC",
-        "entrada_saida": "Entrada: USD 755.00",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "29/05/2025 (1 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
-    },
-    {
         "ticker": "NVDA",
-        "entrada_saida": "Entrada: USD 134.83",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "16/05/2025 (8 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "entrada_saida": "Entrada: USD 134.83 | Saída: USD 137.38",
+        "pnl": "PnL: USD 1.89 (+1.89%)",
+        "retorno_dia": "Retorno/dia: +0.19%",
+        "data": "16/05/2025 (10 dias úteis)",
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "NPCE",
-        "entrada_saida": "Entrada: USD 17.05",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "15/05/2025 (9 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "entrada_saida": "Entrada: USD 17.05 | Saída: USD 13.04",
+        "pnl": "PnL: USD -23.52 (-23.52%)",
+        "retorno_dia": "Retorno/dia: -2.41%",
+        "data": "15/05/2025 (11 dias úteis)",
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "BCRX",
@@ -40,7 +31,7 @@
         "entrada_saida": "Entrada: USD 2.40",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "05/05/2025 (17 dias úteis)",
+        "data": "05/05/2025 (19 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -49,18 +40,18 @@
         "entrada_saida": "Entrada: USD 8.96",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "05/05/2025 (17 dias úteis)",
+        "data": "05/05/2025 (19 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
     {
         "ticker": "WYY",
-        "entrada_saida": "Entrada: USD 5.23",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "05/05/2025 (17 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "entrada_saida": "Entrada: USD 5.23 | Saída: USD 3.80",
+        "pnl": "PnL: USD -27.34 (-27.34%)",
+        "retorno_dia": "Retorno/dia: -1.67%",
+        "data": "05/05/2025 (19 dias úteis)",
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "CPS",
@@ -91,12 +82,12 @@
     },
     {
         "ticker": "FULC",
-        "entrada_saida": "Entrada: USD 5.45",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "02/05/2025 (18 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "entrada_saida": "Entrada: USD 5.45 | Saída: USD 6.96",
+        "pnl": "PnL: USD 27.71 (+27.71%)",
+        "retorno_dia": "Retorno/dia: +1.23%",
+        "data": "02/05/2025 (20 dias úteis)",
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "BNTC",
