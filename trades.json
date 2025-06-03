@@ -1,19 +1,55 @@
 [
     {
-        "ticker": "NVDA",
-        "entrada_saida": "Entrada: USD 135.21",
+        "ticker": "DG",
+        "entrada_saida": "Entrada: USD 112.66",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "28/05/2025 (1 dias úteis)",
+        "data": "03/06/2025 (1 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
+    },
+    {
+        "ticker": "ATAI",
+        "entrada_saida": "Entrada: USD 2.58",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "02/06/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
+        "ticker": "ZS",
+        "entrada_saida": "Entrada: USD 290.47",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "02/06/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
+        "ticker": "APPS",
+        "entrada_saida": "Entrada: USD 4.76 | Saída: USD 4.38",
+        "pnl": "PnL: USD -8.94 (-7.92%)",
+        "retorno_dia": "Retorno/dia: -4.04%",
+        "data": "29/05/2025 (2 dias úteis)",
+        "status": "fechado",
+        "cor": "vermelho"
+    },
+    {
+        "ticker": "NVDA",
+        "entrada_saida": "Entrada: USD 135.21 | Saída: USD 140.84",
+        "pnl": "PnL: USD 10.53 (+4.17%)",
+        "retorno_dia": "Retorno/dia: +1.03%",
+        "data": "28/05/2025 (4 dias úteis)",
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "NVDA",
         "entrada_saida": "Entrada: USD 135.76",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "28/05/2025 (1 dias úteis)",
+        "data": "28/05/2025 (4 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
