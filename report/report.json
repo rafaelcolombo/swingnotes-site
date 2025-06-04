@@ -1,8 +1,8 @@
 {
   "Conta": {
     "Total": 1000,
-    "Alocado": 840.04,
-    "SaldoDisponivel": 133.15
+    "Alocado": 973.19,
+    "SaldoDisponivel": 0.0
   },
   "Fechados": {
     "PnLTotal": -26.81,
@@ -21,7 +21,7 @@
   "SharpeRatio": -0.07,
   "Expectancy": -1.17,
   "MetricasPorTrade": {
-    "MediaPnL": -0.96,
+    "MediaPnL": -0.92,
     "RetornoConta": -2.68,
     "WinRate": 52.17,
     "MaiorLucro": {
@@ -34,16 +34,16 @@
     }
   },
   "Resumo": {
-    "TotalTrades": 28,
+    "TotalTrades": 29,
     "DataPrimeiroTrade": "08/04/2025",
-    "DiasUteis": 39
+    "DiasUteis": 40
   },
   "Meta": {
     "Objetivo": 10000,
     "ValorAtual": -26.81,
     "Faltante": 10026.81,
     "PercentualAtingido": -0.27,
-    "DiasUteisRestantes": 238,
-    "ValorMedioDiarioNecessario": 42.13
+    "DiasUteisRestantes": 237,
+    "ValorMedioDiarioNecessario": 42.31
   }
 }
