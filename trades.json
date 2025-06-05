@@ -1,28 +1,46 @@
 [
     {
+        "ticker": "REVG",
+        "entrada_saida": "Entrada: USD 43.77",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "04/06/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
         "ticker": "DG",
         "entrada_saida": "Entrada: USD 112.66",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "03/06/2025 (1 dias úteis)",
+        "data": "03/06/2025 (2 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
+        "ticker": "HOOD",
+        "entrada_saida": "Entrada: USD 71.52",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "03/06/2025 (2 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
     {
         "ticker": "ATAI",
-        "entrada_saida": "Entrada: USD 2.58",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "02/06/2025 (1 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "entrada_saida": "Entrada: USD 2.58 | Saída: USD 2.39",
+        "pnl": "PnL: USD -7.30 (-7.30%)",
+        "retorno_dia": "Retorno/dia: -2.50%",
+        "data": "02/06/2025 (3 dias úteis)",
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "ZS",
         "entrada_saida": "Entrada: USD 290.47",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "02/06/2025 (1 dias úteis)",
+        "data": "02/06/2025 (3 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -49,7 +67,7 @@
         "entrada_saida": "Entrada: USD 135.76",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "28/05/2025 (4 dias úteis)",
+        "data": "28/05/2025 (6 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
