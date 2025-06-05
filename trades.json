@@ -1,5 +1,14 @@
 [
     {
+        "ticker": "NBIS",
+        "entrada_saida": "Entrada: USD 45.97",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "05/06/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
         "ticker": "REVG",
         "entrada_saida": "Entrada: USD 43.77",
         "pnl": "PnL: USD 0.00 (+0.00%)",
@@ -64,12 +73,12 @@
     },
     {
         "ticker": "NVDA",
-        "entrada_saida": "Entrada: USD 135.76",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 135.76 | Saída: USD 140.40",
+        "pnl": "PnL: USD 15.56 (+3.42%)",
+        "retorno_dia": "Retorno/dia: +0.56%",
         "data": "28/05/2025 (6 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "NVDA",
