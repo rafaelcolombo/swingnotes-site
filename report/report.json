@@ -9,12 +9,12 @@
     "PnLPercent": -0.52
   },
   "Abertos": {
-    "PnLEstimado": 6.91,
-    "PnLEstimadoPercent": 0.7
+    "PnLEstimado": 0,
+    "PnLEstimadoPercent": 0
   },
   "PosicaoGeral": {
-    "PnLCombinado": -11.64,
-    "PnLCombinadoPercent": -0.26
+    "PnLCombinado": -18.55,
+    "PnLCombinadoPercent": -0.52
   },
   "BenchmarkSP500": 0,
   "MaxDrawdown": -7.77,
@@ -36,14 +36,14 @@
   "Resumo": {
     "TotalTrades": 31,
     "DataPrimeiroTrade": "08/04/2025",
-    "DiasUteis": 41
+    "DiasUteis": 42
   },
   "Meta": {
     "Objetivo": 10000,
     "ValorAtual": -18.55,
     "Faltante": 10018.55,
     "PercentualAtingido": -0.19,
-    "DiasUteisRestantes": 236,
-    "ValorMedioDiarioNecessario": 42.45
+    "DiasUteisRestantes": 235,
+    "ValorMedioDiarioNecessario": 42.63
   }
 }
