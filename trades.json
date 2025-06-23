@@ -37,12 +37,12 @@
     },
     {
         "ticker": "HOOD",
-        "entrada_saida": "Entrada: USD 71.52",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 71.52 | Saída: USD 77.17",
+        "pnl": "PnL: USD 10.28 (+7.91%)",
+        "retorno_dia": "Retorno/dia: +0.59%",
         "data": "03/06/2025 (13 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "ATAI",
