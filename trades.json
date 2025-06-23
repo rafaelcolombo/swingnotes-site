@@ -1,5 +1,14 @@
 [
     {
+        "ticker": "BKSY",
+        "entrada_saida": "Entrada: USD 15.48",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "23/06/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
         "ticker": "NBIS",
         "entrada_saida": "Entrada: USD 45.97",
         "pnl": "PnL: USD 0.00 (+0.00%)",
@@ -28,12 +37,12 @@
     },
     {
         "ticker": "DG",
-        "entrada_saida": "Entrada: USD 112.66",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 112.66 | Saída: USD 113.31",
+        "pnl": "PnL: USD 0.32 (+0.58%)",
+        "retorno_dia": "Retorno/dia: +0.04%",
         "data": "03/06/2025 (13 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "HOOD",
