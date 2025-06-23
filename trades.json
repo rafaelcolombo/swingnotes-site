@@ -4,7 +4,16 @@
         "entrada_saida": "Entrada: USD 45.97",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "05/06/2025 (1 dias úteis)",
+        "data": "05/06/2025 (11 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
+        "ticker": "NBIS",
+        "entrada_saida": "Entrada: USD 45.95",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "05/06/2025 (11 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -13,7 +22,7 @@
         "entrada_saida": "Entrada: USD 43.77",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "04/06/2025 (1 dias úteis)",
+        "data": "04/06/2025 (12 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -22,7 +31,7 @@
         "entrada_saida": "Entrada: USD 112.66",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "03/06/2025 (2 dias úteis)",
+        "data": "03/06/2025 (13 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -31,7 +40,7 @@
         "entrada_saida": "Entrada: USD 71.52",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "03/06/2025 (2 dias úteis)",
+        "data": "03/06/2025 (13 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -46,12 +55,12 @@
     },
     {
         "ticker": "ZS",
-        "entrada_saida": "Entrada: USD 290.47",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "02/06/2025 (3 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "entrada_saida": "Entrada: USD 290.47 | Saída: USD 306.85",
+        "pnl": "PnL: USD 5.64 (+5.64%)",
+        "retorno_dia": "Retorno/dia: +0.39%",
+        "data": "02/06/2025 (14 dias úteis)",
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "APPS",
