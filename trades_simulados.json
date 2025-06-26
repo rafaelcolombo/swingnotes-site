@@ -1,10 +1,19 @@
 [
     {
+        "ticker": "AGL",
+        "entrada_saida": "Entrada: USD 2.18",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "26/06/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
         "ticker": "MCTR",
         "entrada_saida": "Entrada: USD 41.98",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "04/06/2025 (1 dias úteis)",
+        "data": "04/06/2025 (15 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
