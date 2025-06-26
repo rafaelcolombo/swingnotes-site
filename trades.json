@@ -1,10 +1,28 @@
 [
     {
+        "ticker": "WOLF",
+        "entrada_saida": "Entrada: USD 0.58 | Saída: USD 0.53",
+        "pnl": "PnL: USD -12.35 (-9.08%)",
+        "retorno_dia": "Retorno/dia: -9.08%",
+        "data": "25/06/2025 (1 dias úteis)",
+        "status": "fechado",
+        "cor": "vermelho"
+    },
+    {
         "ticker": "BKSY",
         "entrada_saida": "Entrada: USD 15.48",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "23/06/2025 (1 dias úteis)",
+        "data": "23/06/2025 (3 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
+        "ticker": "ASTS",
+        "entrada_saida": "Entrada: USD 50.05",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "23/06/2025 (3 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -13,7 +31,7 @@
         "entrada_saida": "Entrada: USD 45.97",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "05/06/2025 (11 dias úteis)",
+        "data": "05/06/2025 (14 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -22,18 +40,18 @@
         "entrada_saida": "Entrada: USD 45.95",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "05/06/2025 (11 dias úteis)",
+        "data": "05/06/2025 (14 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
     {
         "ticker": "REVG",
-        "entrada_saida": "Entrada: USD 43.77",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "04/06/2025 (12 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "entrada_saida": "Entrada: USD 43.77 | Saída: USD 44.72",
+        "pnl": "PnL: USD 2.89 (+2.17%)",
+        "retorno_dia": "Retorno/dia: +0.15%",
+        "data": "04/06/2025 (14 dias úteis)",
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "DG",
