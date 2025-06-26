@@ -1,14 +1,5 @@
 [
     {
-        "ticker": "OPEN",
-        "entrada_saida": "Entrada: USD 0.51",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "26/06/2025 (1 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
-    },
-    {
         "ticker": "FTRE",
         "entrada_saida": "Entrada: USD 5.18",
         "pnl": "PnL: USD 0.00 (+0.00%)",
