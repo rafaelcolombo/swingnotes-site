@@ -28,12 +28,12 @@
     },
     {
         "ticker": "FTRE",
-        "entrada_saida": "Entrada: USD 5.18",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 5.18 | Saída: USD 5.11",
+        "pnl": "PnL: USD -1.45 (-1.45%)",
+        "retorno_dia": "Retorno/dia: -0.36%",
         "data": "26/06/2025 (4 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "SRPT",
