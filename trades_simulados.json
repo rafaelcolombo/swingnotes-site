@@ -55,12 +55,12 @@
     },
     {
         "ticker": "NFE",
-        "entrada_saida": "Entrada: USD 2.28",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 2.28 | Saída: USD 3.84",
+        "pnl": "PnL: USD 68.42 (+68.42%)",
+        "retorno_dia": "Retorno/dia: +13.92%",
         "data": "26/06/2025 (4 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "COMM",
