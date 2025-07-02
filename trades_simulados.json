@@ -46,12 +46,12 @@
     },
     {
         "ticker": "NRSN",
-        "entrada_saida": "Entrada: USD 2.20",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 2.20 | Saída: USD 1.92",
+        "pnl": "PnL: USD -12.73 (-12.73%)",
+        "retorno_dia": "Retorno/dia: -3.35%",
         "data": "26/06/2025 (4 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "NFE",
