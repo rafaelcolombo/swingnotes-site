@@ -1,5 +1,23 @@
 [
     {
+        "ticker": "AGL",
+        "entrada_saida": "Entrada: USD 2.27",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "26/06/2025 (4 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
+        "ticker": "OPEN",
+        "entrada_saida": "Entrada: USD 0.53",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "26/06/2025 (4 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
         "ticker": "WOLF",
         "entrada_saida": "Entrada: USD 0.58 | Saída: USD 0.53",
         "pnl": "PnL: USD -12.35 (-9.08%)",
@@ -13,25 +31,25 @@
         "entrada_saida": "Entrada: USD 15.48",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "23/06/2025 (3 dias úteis)",
+        "data": "23/06/2025 (7 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
     {
         "ticker": "ASTS",
-        "entrada_saida": "Entrada: USD 50.05",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "23/06/2025 (3 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "entrada_saida": "Entrada: USD 50.05 | Saída: USD 44.38",
+        "pnl": "PnL: USD -20.57 (-11.33%)",
+        "retorno_dia": "Retorno/dia: -1.70%",
+        "data": "23/06/2025 (7 dias úteis)",
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "NBIS",
         "entrada_saida": "Entrada: USD 45.97",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "05/06/2025 (14 dias úteis)",
+        "data": "05/06/2025 (18 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -40,7 +58,7 @@
         "entrada_saida": "Entrada: USD 45.95",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "05/06/2025 (14 dias úteis)",
+        "data": "05/06/2025 (18 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
