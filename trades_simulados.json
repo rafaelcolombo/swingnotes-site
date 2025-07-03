@@ -1,12 +1,12 @@
 [
     {
         "ticker": "NTRB",
-        "entrada_saida": "Entrada: USD 10.31",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 10.31 | Saída: USD 9.58",
+        "pnl": "PnL: USD -7.13 (-7.13%)",
+        "retorno_dia": "Retorno/dia: -7.13%",
         "data": "02/07/2025 (1 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "MOGO",
@@ -40,7 +40,7 @@
         "entrada_saida": "Entrada: USD 17.46",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "26/06/2025 (4 dias úteis)",
+        "data": "26/06/2025 (5 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -67,7 +67,7 @@
         "entrada_saida": "Entrada: USD 8.32",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "26/06/2025 (4 dias úteis)",
+        "data": "26/06/2025 (5 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -76,7 +76,7 @@
         "entrada_saida": "Entrada: USD 2.20",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "26/06/2025 (4 dias úteis)",
+        "data": "26/06/2025 (5 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
