@@ -1,7 +1,7 @@
 {
     "Fechados": {
         "PnL Total (US$)": -32.34,
-        "PnL Total (%)": -0.64
+        "PnL Total (%)": -0.62
     },
     "Abertos_Parciais": {
         "PnL Estimado (US$)": 0.0,
@@ -9,6 +9,6 @@
     },
     "Geral": {
         "PnL Total Combinado (US$)": -32.34,
-        "PnL Total Combinado (%)": -0.64
+        "PnL Total Combinado (%)": -0.62
     }
 }
