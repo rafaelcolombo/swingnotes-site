@@ -1,10 +1,28 @@
 [
     {
+        "ticker": "SMR",
+        "entrada_saida": "Entrada: USD 36.15",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "03/07/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
+        "ticker": "BBAI",
+        "entrada_saida": "Entrada: USD 7.45",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "02/07/2025 (2 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
         "ticker": "AGL",
         "entrada_saida": "Entrada: USD 2.27",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "26/06/2025 (4 dias úteis)",
+        "data": "26/06/2025 (6 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -13,7 +31,7 @@
         "entrada_saida": "Entrada: USD 0.53",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "26/06/2025 (4 dias úteis)",
+        "data": "26/06/2025 (6 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -31,7 +49,7 @@
         "entrada_saida": "Entrada: USD 15.48",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "23/06/2025 (7 dias úteis)",
+        "data": "23/06/2025 (9 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -49,18 +67,18 @@
         "entrada_saida": "Entrada: USD 45.97",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "05/06/2025 (18 dias úteis)",
+        "data": "05/06/2025 (20 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
     {
         "ticker": "NBIS",
-        "entrada_saida": "Entrada: USD 45.95",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "05/06/2025 (18 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "entrada_saida": "Entrada: USD 45.95 | Parcial: USD 290.05",
+        "pnl": "PnL: USD 9.51 (+2.02%)",
+        "retorno_dia": "Retorno/dia: +0.10%",
+        "data": "05/06/2025 (20 dias úteis)",
+        "status": "parcial",
+        "cor": "verde_claro"
     },
     {
         "ticker": "REVG",
