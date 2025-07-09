@@ -1,10 +1,19 @@
 [
     {
+        "ticker": "WOLF",
+        "entrada_saida": "Entrada: USD 2.44",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "07/07/2025 (2 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
         "ticker": "SMR",
         "entrada_saida": "Entrada: USD 36.15",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "03/07/2025 (1 dias úteis)",
+        "data": "03/07/2025 (3 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -13,25 +22,25 @@
         "entrada_saida": "Entrada: USD 7.45",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "02/07/2025 (2 dias úteis)",
+        "data": "02/07/2025 (4 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
     {
         "ticker": "AGL",
-        "entrada_saida": "Entrada: USD 2.27",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "26/06/2025 (6 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "entrada_saida": "Entrada: USD 2.27 | Saída: USD 2.36",
+        "pnl": "PnL: USD 2.58 (+4.05%)",
+        "retorno_dia": "Retorno/dia: +0.50%",
+        "data": "26/06/2025 (8 dias úteis)",
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "OPEN",
         "entrada_saida": "Entrada: USD 0.53",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "26/06/2025 (6 dias úteis)",
+        "data": "26/06/2025 (8 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -49,7 +58,7 @@
         "entrada_saida": "Entrada: USD 15.48",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "23/06/2025 (9 dias úteis)",
+        "data": "23/06/2025 (11 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -67,7 +76,7 @@
         "entrada_saida": "Entrada: USD 45.97",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "05/06/2025 (20 dias úteis)",
+        "data": "05/06/2025 (22 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -75,8 +84,8 @@
         "ticker": "NBIS",
         "entrada_saida": "Entrada: USD 45.95 | Parcial: USD 290.05",
         "pnl": "PnL: USD 9.51 (+2.02%)",
-        "retorno_dia": "Retorno/dia: +0.10%",
-        "data": "05/06/2025 (20 dias úteis)",
+        "retorno_dia": "Retorno/dia: +0.09%",
+        "data": "05/06/2025 (22 dias úteis)",
         "status": "parcial",
         "cor": "verde_claro"
     },
