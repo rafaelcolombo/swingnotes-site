@@ -10,12 +10,12 @@
     },
     {
         "ticker": "MOGO",
-        "entrada_saida": "Entrada: USD 2.40",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "02/07/2025 (1 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "entrada_saida": "Entrada: USD 2.40 | Saída: USD 1.93",
+        "pnl": "PnL: USD -19.58 (-19.58%)",
+        "retorno_dia": "Retorno/dia: -5.30%",
+        "data": "02/07/2025 (4 dias úteis)",
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "BGLC",
@@ -40,7 +40,7 @@
         "entrada_saida": "Entrada: USD 17.46",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "26/06/2025 (5 dias úteis)",
+        "data": "26/06/2025 (8 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -67,7 +67,7 @@
         "entrada_saida": "Entrada: USD 8.32",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "26/06/2025 (5 dias úteis)",
+        "data": "26/06/2025 (8 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -76,7 +76,7 @@
         "entrada_saida": "Entrada: USD 2.20",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "26/06/2025 (5 dias úteis)",
+        "data": "26/06/2025 (8 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
