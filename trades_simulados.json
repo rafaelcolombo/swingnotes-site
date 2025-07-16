@@ -1,12 +1,12 @@
 [
     {
         "ticker": "PROK",
-        "entrada_saida": "Entrada: USD 5.76",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 5.76 | Saída: USD 3.71",
+        "pnl": "PnL: USD -35.59 (-35.59%)",
+        "retorno_dia": "Retorno/dia: -8.42%",
         "data": "09/07/2025 (5 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "EVOK",
