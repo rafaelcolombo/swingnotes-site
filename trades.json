@@ -1,5 +1,23 @@
 [
     {
+        "ticker": "ABCL",
+        "entrada_saida": "Entrada: USD 5.41",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "21/07/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
+        "ticker": "IREN",
+        "entrada_saida": "Entrada: USD 20.73",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "21/07/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
         "ticker": "RKLB",
         "entrada_saida": "Entrada: USD 46.44",
         "pnl": "PnL: USD 0.00 (+0.00%)",
@@ -82,12 +100,12 @@
     },
     {
         "ticker": "OPEN",
-        "entrada_saida": "Entrada: USD 0.53",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 0.53 | Saída: USD 3.87",
+        "pnl": "PnL: USD 382.01 (+636.68%)",
+        "retorno_dia": "Retorno/dia: +13.29%",
         "data": "26/06/2025 (16 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "WOLF",
