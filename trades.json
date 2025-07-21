@@ -1,19 +1,55 @@
 [
     {
-        "ticker": "IOVA",
-        "entrada_saida": "Entrada: USD 1.89",
+        "ticker": "RKLB",
+        "entrada_saida": "Entrada: USD 46.44",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "09/07/2025 (1 dias úteis)",
+        "data": "16/07/2025 (3 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
+    },
+    {
+        "ticker": "JOBY",
+        "entrada_saida": "Entrada: USD 15.11",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "16/07/2025 (3 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
+        "ticker": "MP",
+        "entrada_saida": "Entrada: USD 57.69",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "15/07/2025 (4 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
+        "ticker": "QS",
+        "entrada_saida": "Entrada: USD 10.62 | Saída: USD 12.71",
+        "pnl": "PnL: USD 29.56 (+19.71%)",
+        "retorno_dia": "Retorno/dia: +4.60%",
+        "data": "15/07/2025 (4 dias úteis)",
+        "status": "fechado",
+        "cor": "verde"
+    },
+    {
+        "ticker": "IOVA",
+        "entrada_saida": "Entrada: USD 1.89 | Saída: USD 2.26",
+        "pnl": "PnL: USD 13.03 (+19.66%)",
+        "retorno_dia": "Retorno/dia: +2.60%",
+        "data": "09/07/2025 (7 dias úteis)",
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "WOLF",
         "entrada_saida": "Entrada: USD 2.44",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "07/07/2025 (2 dias úteis)",
+        "data": "07/07/2025 (10 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -49,7 +85,7 @@
         "entrada_saida": "Entrada: USD 0.53",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "26/06/2025 (8 dias úteis)",
+        "data": "26/06/2025 (16 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -67,7 +103,7 @@
         "entrada_saida": "Entrada: USD 15.48",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "23/06/2025 (11 dias úteis)",
+        "data": "23/06/2025 (19 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
