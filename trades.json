@@ -19,19 +19,19 @@
     },
     {
         "ticker": "RKLB",
-        "entrada_saida": "Entrada: USD 46.44",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "16/07/2025 (3 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "entrada_saida": "Entrada: USD 46.44 | Saída: USD 46.51",
+        "pnl": "PnL: USD 0.10 (+0.14%)",
+        "retorno_dia": "Retorno/dia: +0.04%",
+        "data": "16/07/2025 (4 dias úteis)",
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "JOBY",
         "entrada_saida": "Entrada: USD 15.11",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "16/07/2025 (3 dias úteis)",
+        "data": "16/07/2025 (4 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -40,7 +40,7 @@
         "entrada_saida": "Entrada: USD 57.69",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "15/07/2025 (4 dias úteis)",
+        "data": "15/07/2025 (5 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -67,7 +67,7 @@
         "entrada_saida": "Entrada: USD 2.44",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "07/07/2025 (10 dias úteis)",
+        "data": "07/07/2025 (11 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -121,7 +121,7 @@
         "entrada_saida": "Entrada: USD 15.48",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "23/06/2025 (19 dias úteis)",
+        "data": "23/06/2025 (20 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
