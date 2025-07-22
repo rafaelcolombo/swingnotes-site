@@ -28,12 +28,12 @@
     },
     {
         "ticker": "JOBY",
-        "entrada_saida": "Entrada: USD 15.11",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 15.11 | Saída: USD 16.10",
+        "pnl": "PnL: USD 4.59 (+6.56%)",
+        "retorno_dia": "Retorno/dia: +1.60%",
         "data": "16/07/2025 (4 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "MP",
