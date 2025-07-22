@@ -118,12 +118,12 @@
     },
     {
         "ticker": "BKSY",
-        "entrada_saida": "Entrada: USD 15.48",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 15.48 | Saída: USD 20.68",
+        "pnl": "PnL: USD 40.24 (+33.53%)",
+        "retorno_dia": "Retorno/dia: +1.46%",
         "data": "23/06/2025 (20 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "ASTS",
