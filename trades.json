@@ -37,12 +37,12 @@
     },
     {
         "ticker": "MP",
-        "entrada_saida": "Entrada: USD 57.69",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 57.69 | Saída: USD 58.09",
+        "pnl": "PnL: USD 1.04 (+0.69%)",
+        "retorno_dia": "Retorno/dia: +0.14%",
         "data": "15/07/2025 (5 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "QS",
