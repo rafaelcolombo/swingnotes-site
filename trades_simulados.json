@@ -55,12 +55,12 @@
     },
     {
         "ticker": "SRPT",
-        "entrada_saida": "Entrada: USD 17.46",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 17.46 | Saída: USD 12.88",
+        "pnl": "PnL: USD -26.23 (-26.23%)",
+        "retorno_dia": "Retorno/dia: -1.59%",
         "data": "26/06/2025 (19 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "NRSN",
