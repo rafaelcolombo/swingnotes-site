@@ -58,7 +58,7 @@
         "entrada_saida": "Entrada: USD 17.46",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "26/06/2025 (13 dias úteis)",
+        "data": "26/06/2025 (19 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -82,19 +82,19 @@
     },
     {
         "ticker": "COMM",
-        "entrada_saida": "Entrada: USD 8.32",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "26/06/2025 (13 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "entrada_saida": "Entrada: USD 8.32 | Saída: USD 7.93",
+        "pnl": "PnL: USD -4.69 (-4.69%)",
+        "retorno_dia": "Retorno/dia: -0.25%",
+        "data": "26/06/2025 (19 dias úteis)",
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "SY",
         "entrada_saida": "Entrada: USD 2.20",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "26/06/2025 (13 dias úteis)",
+        "data": "26/06/2025 (19 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
