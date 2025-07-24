@@ -91,12 +91,12 @@
     },
     {
         "ticker": "SY",
-        "entrada_saida": "Entrada: USD 2.20",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 2.20 | Saída: USD 4.73",
+        "pnl": "PnL: USD 115.00 (+115.00%)",
+        "retorno_dia": "Retorno/dia: +4.11%",
         "data": "26/06/2025 (19 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "ROMA",
