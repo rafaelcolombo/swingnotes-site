@@ -45,15 +45,6 @@
         "cor": "vermelho_claro"
     },
     {
-        "ticker": "BKSY",
-        "entrada_saida": "Entrada: USD 20.53",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "24/07/2025 (1 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
-    },
-    {
         "ticker": "PROK",
         "entrada_saida": "Entrada: USD 5.76 | Saída: USD 3.71",
         "pnl": "PnL: USD -35.59 (-35.59%)",
