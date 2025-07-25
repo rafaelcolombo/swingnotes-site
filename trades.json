@@ -1,10 +1,37 @@
 [
     {
+        "ticker": "SBET",
+        "entrada_saida": "Entrada: USD 24.03",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "25/07/2025 (1 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
+        "ticker": "MOH",
+        "entrada_saida": "Entrada: USD 165.00 | Saída: USD 164.56",
+        "pnl": "PnL: USD -0.40 (-0.27%)",
+        "retorno_dia": "Retorno/dia: -0.27%",
+        "data": "25/07/2025 (1 dias úteis)",
+        "status": "fechado",
+        "cor": "vermelho"
+    },
+    {
+        "ticker": "GEV",
+        "entrada_saida": "Entrada: USD 622.77",
+        "pnl": "PnL: USD 0.00 (+0.00%)",
+        "retorno_dia": "Retorno/dia: +0.00%",
+        "data": "23/07/2025 (2 dias úteis)",
+        "status": "aberto",
+        "cor": "vermelho_claro"
+    },
+    {
         "ticker": "ABCL",
         "entrada_saida": "Entrada: USD 5.41",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "21/07/2025 (1 dias úteis)",
+        "data": "21/07/2025 (4 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -13,7 +40,7 @@
         "entrada_saida": "Entrada: USD 20.73",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "21/07/2025 (1 dias úteis)",
+        "data": "21/07/2025 (4 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -67,7 +94,7 @@
         "entrada_saida": "Entrada: USD 2.44",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "07/07/2025 (11 dias úteis)",
+        "data": "07/07/2025 (14 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
