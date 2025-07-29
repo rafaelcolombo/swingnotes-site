@@ -91,12 +91,12 @@
     },
     {
         "ticker": "WOLF",
-        "entrada_saida": "Entrada: USD 2.44",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 2.44 | Saída: USD 1.62",
+        "pnl": "PnL: USD -97.33 (-33.56%)",
+        "retorno_dia": "Retorno/dia: -2.52%",
         "data": "07/07/2025 (16 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "SMR",
