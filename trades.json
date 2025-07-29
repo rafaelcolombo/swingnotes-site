@@ -4,7 +4,7 @@
         "entrada_saida": "Entrada: USD 24.03",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "25/07/2025 (1 dias úteis)",
+        "data": "25/07/2025 (2 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -22,25 +22,25 @@
         "entrada_saida": "Entrada: USD 622.77",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "23/07/2025 (2 dias úteis)",
+        "data": "23/07/2025 (4 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
     {
         "ticker": "ABCL",
-        "entrada_saida": "Entrada: USD 5.41",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "21/07/2025 (4 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "entrada_saida": "Entrada: USD 5.41 | Saída: USD 4.83",
+        "pnl": "PnL: USD -13.76 (-10.68%)",
+        "retorno_dia": "Retorno/dia: -1.86%",
+        "data": "21/07/2025 (6 dias úteis)",
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "IREN",
         "entrada_saida": "Entrada: USD 20.73",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "21/07/2025 (4 dias úteis)",
+        "data": "21/07/2025 (6 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -94,7 +94,7 @@
         "entrada_saida": "Entrada: USD 2.44",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "07/07/2025 (14 dias úteis)",
+        "data": "07/07/2025 (16 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
