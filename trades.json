@@ -37,12 +37,12 @@
     },
     {
         "ticker": "IREN",
-        "entrada_saida": "Entrada: USD 20.73",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 20.73 | Saída: USD 16.00",
+        "pnl": "PnL: USD -29.65 (-22.81%)",
+        "retorno_dia": "Retorno/dia: -4.22%",
         "data": "21/07/2025 (6 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "RKLB",
