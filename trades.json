@@ -1,12 +1,12 @@
 [
     {
         "ticker": "SBET",
-        "entrada_saida": "Entrada: USD 24.03",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 24.03 | Saída: USD 20.12",
+        "pnl": "PnL: USD -24.39 (-16.26%)",
+        "retorno_dia": "Retorno/dia: -8.49%",
         "data": "25/07/2025 (2 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "vermelho"
     },
     {
         "ticker": "MOH",
