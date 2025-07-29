@@ -19,12 +19,12 @@
     },
     {
         "ticker": "GEV",
-        "entrada_saida": "Entrada: USD 622.77",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
+        "entrada_saida": "Entrada: USD 622.77 | Saída: USD 646.52",
+        "pnl": "PnL: USD 5.72 (+3.81%)",
+        "retorno_dia": "Retorno/dia: +0.94%",
         "data": "23/07/2025 (4 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "ABCL",
