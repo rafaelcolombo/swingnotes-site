@@ -4,7 +4,7 @@
         "entrada_saida": "Entrada: USD 0.21",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "24/07/2025 (1 dias úteis)",
+        "data": "24/07/2025 (13 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -13,7 +13,7 @@
         "entrada_saida": "Entrada: USD 0.58",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "24/07/2025 (1 dias úteis)",
+        "data": "24/07/2025 (13 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -22,7 +22,7 @@
         "entrada_saida": "Entrada: USD 1.20",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "24/07/2025 (1 dias úteis)",
+        "data": "24/07/2025 (13 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
@@ -31,18 +31,18 @@
         "entrada_saida": "Entrada: USD 0.12",
         "pnl": "PnL: USD 0.00 (+0.00%)",
         "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "24/07/2025 (1 dias úteis)",
+        "data": "24/07/2025 (13 dias úteis)",
         "status": "aberto",
         "cor": "vermelho_claro"
     },
     {
         "ticker": "HCTI",
-        "entrada_saida": "Entrada: USD 0.05",
-        "pnl": "PnL: USD 0.00 (+0.00%)",
-        "retorno_dia": "Retorno/dia: +0.00%",
-        "data": "24/07/2025 (1 dias úteis)",
-        "status": "aberto",
-        "cor": "vermelho_claro"
+        "entrada_saida": "Entrada: USD 0.05 | Saída: USD 3.03",
+        "pnl": "PnL: USD 5480.11 (+5480.11%)",
+        "retorno_dia": "Retorno/dia: +36.26%",
+        "data": "24/07/2025 (13 dias úteis)",
+        "status": "fechado",
+        "cor": "verde"
     },
     {
         "ticker": "PROK",
